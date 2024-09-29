@@ -53,7 +53,7 @@
         <div class="row">
             <div class="col-md-10 offset-md-1 text-right">
 
-                <a class="nav-link" href="projects"  >&#8592; back to our work</a>
+                <a class="nav-link p-2 m-5" href="projects"  >&#8592; back to our work</a>
             </div>
         </div>
     </section>

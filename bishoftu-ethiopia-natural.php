@@ -43,7 +43,7 @@
         <div class="row">
             <div class="col-md-10 offset-md-1 text-right">
 
-                <a class="nav-link" href="http://localhost/skapari/projects">← back to our work</a>
+                <a class="nav-link p-2 m-5" href="projects">← back to our work</a>
             </div>
         </div>
     </section>
