@@ -7,7 +7,7 @@
     <title>Skapari - SOUTH AFRICA: WeWork Eye of Africa </title>
     <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/Icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/Icon-72.png">
-    <link rel="stylesheet" href="assets/css/styles.css?t=1">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,600&display=swap" rel="stylesheet">
 </head>
 <body class="skapari">

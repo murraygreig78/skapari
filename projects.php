@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Skapari</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/Icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/Icon-72.png">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/Icon-72.png">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,600&display=swap" rel="stylesheet">
 </head>
 <body class="skapari">
@@ -28,7 +28,7 @@
                                     <div class="col">
                                         <ul style="padding: 0;">
                                             <li>
-                                                <a class="p-3" href="classic-elegance-south-africa">
+                                                <a class="p-3" href="/classic-elegance-south-africa">
                                                     SOUTH AFRICA: Classic Elegance
                                                 </a></li>
                                         </ul>
@@ -45,11 +45,11 @@
                                     <div class="col">
                                         <ul style="padding: 0;">
                                             <li>
-                                                <a class="p-3" href="accor-office-contemporary">
+                                                <a class="p-3" href="/accor-office-contemporary">
                                                     ACCOR OFFICE: contemporary
                                                 </a></li>
                                             <li>
-                                                <a class="p-3" href="wework-eyeofafrica">
+                                                <a class="p-3" href="/wework-eyeofafrica">
                                                     SOUTH AFRICA: WeWork Eye of Africa
                                                 </a></li>
                                         </ul>
@@ -66,12 +66,12 @@
                                     <div class="col">
                                         <ul style="">
                                             <li>
-                                                <a class="p-3" href="abudhabi-elegance">
+                                                <a class="p-3" href="/abudhabi-elegance">
                                                     ABU DHABI: elegance
                                                 </a></li>
 
                                             <li>
-                                                <a class="p-3" href="apartment-jeoffry-south-africa">
+                                                <a class="p-3" href="/apartment-jeoffry-south-africa">
                                                     SOUTH AFRICA : Apartment Jeoffry
                                                 </a></li>
                                         </ul>
