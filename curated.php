@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Skapari - Curated </title>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/Icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/Icon-72.png">
+    <link rel="stylesheet" href="assets/css/styles.css?t=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,600&display=swap" rel="stylesheet">
+</head>
+<body class="skapari">
+<div class="wrapper">
+    <header class="header">
+        <nav class="navbar" id="main-nav">
+            <!-- Collapse button -->
+            <button class="navbar-toggler third-button ml-auto hidden-sm-up float-xs-right collapsed" type="button" data-toggle="collapse" data-target="#topnavigation" aria-controls="topnavigation" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon3"><span></span><span></span><span></span></div>
+            </button>
+            <!-- Collapsible content -->
+            <div class="navbar-collapse collapse" id="topnavigation" style="">
+                <div class="overlay-content">
+                    <!-- Links -->
+                    <ul class="mainnav navbar-nav mr-auto">
+                        <li class="nav-item inactive">
+                            <a class="nav-link " href="https://skapari.co.za">home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about">about</a>
+                        </li>
+                        <li class="nav-item inactive">
+                            <a class="nav-link" href="projects">our work</a>
+                        </li>
+                        <li class="nav-item inactive">
+                            <a class="nav-link" href="curated">curated</a>
+                        </li>
+                        <li class="nav-item inactive">
+                            <a class="nav-link" href="contact">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Collapsible content -->
+        </nav>    </header>
+    <section class="section" id="curated" >
+        <div class="container-fluid">
+            <div class="overlay-content">
+                <h1 class="text-right main-heading" >curated</h1>
+            </div>
+            <ul class="mt-5 subnav nav justify-content-end">
+                <li class="nav-item inactive">
+                    <a class="nav-link " href="#philosophy"  >philosophy </a>
+                </li>
+                <li class="nav-item inactive">
+                    <a class="nav-link " href="#dalesargent"  >dale sargent </a>
+                </li>
+
+
+                <li class="nav-item inactive">
+                    <a class="nav-link" href="#artists"  >artists</a>
+                </li>
+
+
+                <!-- <li class="nav-item inactive">
+                    <a class="nav-link" href="#partners"  >partners</a>
+                </li> -->
+            </ul>
+
+        </div>
+    </section>
+    <section class="bg-dark section" id="philosophy">
+        <div class="container-fluid">
+            <div class="col-sm-8 m-auto heading">
+                <div class="row">
+                    <div class="d-none d-md-block col-md-2">
+                        <img src=" /assets/images/skapari-rune.svg" alt="Skapari circle_lights "
+                             class="img-fluid" style="width: 110px;">
+                    </div>
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-sm-12 m-auto heading">
+                                <h3 class="skapari-heading half">FINE ART<span>curated by skapari</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <p>Curated by Skapari is a design and art collaboration that very often form parts of our inspiration . This gives us the platform to create a unique story that allows us to give our hotels and our clients the authenticity, it enables us to embrace the strong sense of locality.Its origins lie our love of sourcing local artists and pieces that are relevant to the area that we are working in.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="p-4" id="philosophy">
+        <div class="container-fluid">
+
+
+        </div>
+    </section>
+    <section class="p-4" id="dalesargent">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8 m-auto heading">
+                    <h3 class="skapari-heading design-philisophy">DALE SARGENT<span>fine art gallery</span>
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 m-auto">
+                    <p>Dale Sargent Fine Art is a gallery as well as an online platform that offers a range of fine
+                        South African art. We have an extensive collection of artworks by established South African
+                        artists as well as works by emerging younger artists. Dale Sargent Fine Art has a gallery space
+                        in Parktown North in Johannesburg where visits are by appointment. We also offer onsite
+                        consulting and art sourcing for corporate and private clients.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-8 mx-auto">
+                    <img src=" /assets/images/skapari_curated.png" alt="Skapari curated"
+                         class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="p-4" id="artists">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8 m-auto heading">
+                    <h3 class="skapari-heading design-philisophy">ARTISTS<span>we have worked with</span>
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 m-auto">
+                    <p>Artist that skapari has worked with on projects:</p>
+                    <h4>South Africa</h4>
+                    <p>Hilary O'leary<br>
+                        <a href="https://www.hilaryoleary.com/" target="_blank">https://www.hilaryoleary.com/</a><br>
+                        <a href="https://www.instagram.com/hilaryolearyphotography/" target="_blank">https://www.instagram.com/hilaryolearyphotography/</a>
+                    </p>
+
+                    <h4>Cote De Ivoire</h4>
+                    <p>Nuits Balneaires<br>
+                        <a href="https://www.nuitsbalneaires.com/" target="_blank">https://www.nuitsbalneaires.com/</a><br>
+                        <a href="https://www.instagram.com/nuits_balneaires/" target="_blank">https://www.instagram.com/nuits_balneaires/</a>
+                    </p>
+
+
+                    <h4>Nigeria</h4>
+                    <p>Dotun Popo <br>
+                        <a href="https://dotunpopo.com/" target="_blank">https://dotunpopo.com/</a> <br>
+                        <a href="https://www.instagram.com/p/CbmELZxD74X/" target="_blank">https://www.instagram.com/p/CbmELZxD74X/</a>
+                    </p>
+
+
+                    <h4>Zambia</h4>
+                    <p>Stary Mwambo <br>
+                        <a href="https://www.instagram.com/starymwaba/?hl=en" target="_blank">https://www.instagram.com/starymwaba/?hl=en</a><br>
+                        <a href="https://skapari.co.za/artist-stary-mwabo" target="_blank">https://skapari.co.za/artist-stary-mwabo</a>
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+</div>
+<?php include('footer.php'); ?>
