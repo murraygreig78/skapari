@@ -24,16 +24,16 @@
                                                             
                                         <div class="col-lg-12 ">
                         <div class="bg-image hover-overlay">
-                            <a href="./BISHOFTU-ETHIOPIA_ natural_files/5fb367f679598425385078.png" data-fslightbox="">
-                                <img src="./BISHOFTU-ETHIOPIA_ natural_files/5fb367f679598425385078.png" class="w-100">
+                            <a href="/BISHOFTU-ETHIOPIA_ natural_files/5fb367f679598425385078.png" data-fslightbox="">
+                                <img src="/BISHOFTU-ETHIOPIA_ natural_files/5fb367f679598425385078.png" class="w-100">
                             </a>
                         </div>
                     </div>
                                                             
                                         <div class="col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
                         <div class="bg-image hover-overlay">
-                            <a href="./BISHOFTU-ETHIOPIA_ natural_files/5fb367f689158262238338.png" data-fslightbox="">
-                                <img src="./BISHOFTU-ETHIOPIA_ natural_files/5fb367f689158262238338.png" class="w-100">
+                            <a href="/BISHOFTU-ETHIOPIA_ natural_files/5fb367f689158262238338.png" data-fslightbox="">
+                                <img src="/BISHOFTU-ETHIOPIA_ natural_files/5fb367f689158262238338.png" class="w-100">
                             </a>
                         </div>
                     </div>
@@ -48,25 +48,4 @@
         </div>
     </section>
 </div>
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-6 m-auto h-100 text-center">
-                <ul class="list-inline mb-2">
-                    <li class="list-inline-item text-muted small">© skapari 2018. All Rights Reserved.</li>
-                    <li class="list-inline-item"><span>⋅</span></li>
-                    <li class="list-inline-item"><a href="http://localhost/skapari/project/terms" class="text-muted small">Terms of Use</a></li>
-                    <li class="list-inline-item"><span>⋅</span></li>
-                    <li class="list-inline-item"><a href="http://localhost/skapari/project/privacy-policy" class="text-muted small">Privacy Policy</a>
-                    </li>
-                    <li class="list-inline-item"><span>⋅</span></li>
-                    <li class="list-inline-item"><a href="https://www.instagram.com/interiorsbyskapari/" target="_blank" class="text-muted small">https://www.instagram.com/interiorsbyskapari/</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer><script type="text/javascript" src="./BISHOFTU-ETHIOPIA_ natural_files/7d727397c5ffe6bae5dae799aad9a6c5-1701685306.js">
-</script>
-
-</body></html>
+<?php include('footer.php'); ?>
