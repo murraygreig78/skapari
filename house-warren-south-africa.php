@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!-- saved from url=(0055)http://localhost/skapari/project/south-africa-project-1 -->
-<html lang="en"><head><title>Skapari - SOUTH AFRICA: Project 1 </title>
+<!-- saved from url=(0058)http://localhost/skapari/project/house-warren-south-africa -->
+<html lang="en"><head><title>Skapari - SOUTH AFRICA: House Warren </title>
     <?php include('head.php'); ?>
 </head>
 <body class="skapari">
@@ -13,7 +13,7 @@
     <section class="container">
         <div class="row">
             <div class="col-md-10 offset-md-1 heading">
-                                <h3 class="skapari-heading  Hospitality">Hospitality<span>  SOUTH AFRICA:  Project 1</span>
+                                <h3 class="skapari-heading  Residential">Residential<span>  SOUTH AFRICA:  House Warren</span>
                 </h3>
             </div>
         </div>
@@ -21,14 +21,6 @@
             <div class="col-md-10 offset-md-1">
                 <p class="well"></p>
                 <div class="row">
-                                                            
-                                        <div class="col-lg-12 ">
-                        <div class="bg-image hover-overlay">
-                            <a href="http://localhost/skapari/storage/app/uploads/public/64d/4a6/631/thumb_105_1440_900_0_0_auto.jpg" data-fslightbox="">
-                                <img src="./south-africa-project-1_files/thumb_105_920_520_0_0_auto.jpg" class="w-100">
-                            </a>
-                        </div>
-                    </div>
                                                         </div>
             </div>
         </div>
@@ -58,7 +50,7 @@
             </div>
         </div>
     </div>
-</footer><script type="text/javascript" src="./south-africa-project-1_files/7d727397c5ffe6bae5dae799aad9a6c5-1701685306.js">
+</footer><script type="text/javascript" src="./house-warren-south-africa_files/7d727397c5ffe6bae5dae799aad9a6c5-1701685306.js">
 </script>
 
 </body></html>
