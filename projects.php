@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +12,9 @@
 <body class="skapari">
 <div class="wrapper" style="background: url('/assets/images/ska_grey_bg.png') no-repeat fixed center">
     <header class="header">
-        <?php include('nav.php'); ?>    </header>
-    <section class="p-4" >
+        <?php
+        include('nav.php'); ?>    </header>
+    <section class="p-4">
         <div class="container-fluid">
 
             <div class="row projects">
@@ -34,7 +34,8 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div>                        </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 project">
@@ -54,7 +55,8 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div>                        </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 project">
@@ -67,10 +69,7 @@
                                                 <a class="p-3" href="abudhabi-elegance">
                                                     ABU DHABI: elegance
                                                 </a></li>
-                                            <li>
-                                                <a class="p-3" href="ghana-private-residence-1">
-                                                    GHANA - Private Residence 1
-                                                </a></li>
+
                                             <li>
                                                 <a class="p-3" href="apartment-jeoffry-south-africa">
                                                     SOUTH AFRICA : Apartment Jeoffry
@@ -86,4 +85,5 @@
         </div>
     </section>
 </div>
-<?php include('footer.php'); ?>
+<?php
+include('footer.php'); ?>
