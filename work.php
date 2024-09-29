@@ -13,36 +13,7 @@
 <body class="skapari">
 <div class="wrapper" style="background: url('/assets/images/ska_grey_bg.png') no-repeat fixed center">
     <header class="header">
-        <nav class="navbar" id="main-nav">
-            <!-- Collapse button -->
-            <button class="navbar-toggler third-button ml-auto hidden-sm-up float-xs-right collapsed" type="button" data-toggle="collapse" data-target="#topnavigation" aria-controls="topnavigation" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="animated-icon3"><span></span><span></span><span></span></div>
-            </button>
-            <!-- Collapsible content -->
-            <div class="navbar-collapse collapse" id="topnavigation" style="">
-                <div class="overlay-content">
-                    <!-- Links -->
-                    <ul class="mainnav navbar-nav mr-auto">
-                        <li class="nav-item inactive">
-                            <a class="nav-link " href="https://skapari.co.za">home</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="about">about</a>
-                        </li>
-                        <li class="nav-item inactive">
-                            <a class="nav-link" href="projects">our work</a>
-                        </li>
-                        <li class="nav-item inactive">
-                            <a class="nav-link" href="curated">curated</a>
-                        </li>
-                        <li class="nav-item inactive">
-                            <a class="nav-link" href="contact">contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Collapsible content -->
-        </nav>    </header>
+        <?php include('nav.php'); ?>    </header>
     <section class="p-4" >
         <div class="container-fluid">
 
