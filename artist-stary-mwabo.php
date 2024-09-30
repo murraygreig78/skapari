@@ -60,7 +60,7 @@
 
         <div class="row mt-5">
             <div class="col-sm-3 mx-auto">
-                <img src="assets/images/curated logo.png" alt="Skapari curated"
+                <img src="/assets/images/curated logo.png" alt="Skapari curated"
                      class="img-fluid">
             </div>
         </div>

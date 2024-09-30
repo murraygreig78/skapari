@@ -7495,7 +7495,9 @@ a {
     font-size: 1.5rem;
     font-weight: 100; }
 
-
+.projects ul li a {
+  display: inline-block
+}
 
 /* .col-lg-2.mt-4 .bg-image.hover-overlay a {
     display: inline-block;

@@ -216,10 +216,10 @@
                     <div class="row mt-5">
                         <div class="col-md-3"> &nbsp;</div>
                         <div class="col-md-4">
-                            <a target="_blank" href="https://skapari.co.za/storage/app/media/Letter%20of%20Recommendation%20-%20Iain%20Cook%20Radisson.pdf"><img src="assets/images/radisson-logo 1.png" height="137" width="261" class="mx-auto"/></a></div>
+                            <a target="_blank" href="https://skapari.co.za/storage/app/media/Letter%20of%20Recommendation%20-%20Iain%20Cook%20Radisson.pdf"><img src="/assets/images/radisson-logo 1.png" height="137" width="261" class="mx-auto"/></a></div>
                         <div class="col-md-4">
                             <a target="_blank" href="https://skapari.co.za/storage/app/media/accor%20recommendation%20letter.pdf">
-                                <img src="assets/images/Accor-Logo 1.png" height="128" width="227" class="mx-auto"/></a></div>
+                                <img src="/assets/images/Accor-Logo 1.png" height="128" width="227" class="mx-auto"/></a></div>
                         <div class="col-md-3">&nbsp;</div>
                     </div>
 

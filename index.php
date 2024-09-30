@@ -12,7 +12,7 @@
         <div class="row align-items-center h-100">
             <div class="col-10 col-xl-8 mx-auto">
                 <div class=" ">
-                    <img src="assets/images/skapari.svg">
+                    <img src="/assets/images/skapari.svg">
                 </div>
             </div>
         </div>
