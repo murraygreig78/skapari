@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Skapari - Ibis Styles : Plateau </title>
+    <?php include('head.php'); ?>
+</head>
+<body class="skapari">
+<div class="wrapper">
+    <header class="header ">
+        <?php include('nav.php'); ?>    </header>
+    <div class="container my-4">
+    </div>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1 heading">
+                <h3 class="skapari-heading  Hospitality">Hospitality<span>  Ibis Styles : Plateau</span>
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <p class="well"><p>...</p></p>
+                <div class="row">
+
+                    <div class="col-lg-12 ">
+                        <div class="bg-image hover-overlay">
+                            <a href="assets/images/ibis-styles-plateau/ibis-styles-plateau-1.jpg" data-fslightbox>
+                                <img src="assets/images/ibis-styles-plateau/ibis-styles-plateau-1.jpg" class="w-100"/>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
+                        <div class="bg-image hover-overlay">
+                            <a href="assets/images/ibis-styles-plateau/ibis-styles-plateau-2.jpg" data-fslightbox>
+                                <img src="assets/images/ibis-styles-plateau/ibis-styles-plateau-2.jpg" class="w-100"/>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
+                        <div class="bg-image hover-overlay">
+                            <a href="assets/images/ibis-styles-plateau/ibis-styles-plateau-3.jpg" data-fslightbox>
+                                <img src="assets/images/ibis-styles-plateau/ibis-styles-plateau-3.jpg" class="w-100"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
+                        <div class="bg-image hover-overlay">
+                            <a href="assets/images/ibis-styles-plateau/ibis-styles-plateau-4.jpg" data-fslightbox>
+                                <img src="assets/images/ibis-styles-plateau/ibis-styles-plateau-4.jpg" class="w-100"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
+                        <div class="bg-image hover-overlay">
+                            <a href="assets/images/ibis-styles-plateau/ibis-styles-plateau-5.jpg" data-fslightbox>
+                                <img src="assets/images/ibis-styles-plateau/ibis-styles-plateau-5.jpg" class="w-100"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
+                        <div class="bg-image hover-overlay">
+                            <a href="assets/images/ibis-styles-plateau/ibis-styles-plateau-6.jpg" data-fslightbox>
+                                <img src="assets/images/ibis-styles-plateau/ibis-styles-plateau-6.jpg" class="w-100"/>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 offset-md-1 text-right">
+
+                <a class="nav-link p-2 m-5" href="projects"  >&#8592; back to our work</a>
+            </div>
+        </div>
+    </section>
+</div>
+<?php include('footer.php'); ?>
