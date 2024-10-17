@@ -103,7 +103,13 @@
                                                     <li>
                                                         <a class="p-3" href="/south-africa-project-1">
                                                             South Africa: Bedroom concept
-                                                        </a></li>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="p-3" href="/sal-cape-verde-luxury">
+                                                            Sal Cape Verde: Luxury
+                                                        </a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
