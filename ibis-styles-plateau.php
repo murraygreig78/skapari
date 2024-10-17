@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Skapari - Ibis Styles : Plateau </title>
+    <title>Skapari - Côte d'Ivoire: Ibis Styles - Plateau </title>
     <?php include('head.php'); ?>
 </head>
 <body class="skapari">
@@ -13,13 +13,16 @@
     <section class="container">
         <div class="row">
             <div class="col-md-10 offset-md-1 heading">
-                <h3 class="skapari-heading  Hospitality">Hospitality<span>  Ibis Styles : Plateau</span>
+                <h3 class="skapari-heading  Hospitality">Hospitality<span>  Côte d'Ivoire: Ibis Styles - Plateau</span>
                 </h3>
             </div>
         </div>
         <div class="row">
             <div class="col-md-10 offset-md-1">
-                <p class="well"><p>...</p></p>
+                <p class="well mt-4"> A fabulous brief to follow. The Ibis styles brand ethos is ‘Always playful, never predictable’.
+                    Inspired by local patterns, Skapari created bold striking interiors using playful, vivid colours with locally sourced bespoke artwork.
+                    This creates a surprising and bold immersive experience that brings a smile to your face.
+                </p>
                 <div class="row">
 
                     <div class="col-lg-12 ">

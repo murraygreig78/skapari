@@ -21,7 +21,7 @@
         </div>
         <div class="row">
             <div class="col-md-10 offset-md-1">
-                <p class="well"><p dir="ltr">Luxury Brand - Soft refurbishment,stunning and almost iconic building but most certainly an incredibly recognizable building. We created an elegant and timeless interior, balanced with contemporary elements to bring this building into 21st century but still embracing its history.</p></p>
+                <p class="well mt-4">Luxury Brand - Soft refurbishment,stunning and almost iconic building but most certainly an incredibly recognizable building. We created an elegant and timeless interior, balanced with contemporary elements to bring this building into 21st century but still embracing its history.</p>
                 <div class="row">
 
                     <div class="col-lg-12 ">

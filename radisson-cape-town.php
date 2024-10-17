@@ -21,7 +21,9 @@
         </div>
         <div class="row">
             <div class="col-md-10 offset-md-1">
-                <p class="well"><p>...</p></p>
+                <p class="well mt-4">
+                    The renovation of the Park Inn to a Radisson in Foreshore, led by Skapari, aimed to create and enhance the experience by combining convenience, practicality, and understated elegance and simplicity. The design focuses on creating spaces that are open and light, infusing vitality and functionality into all corners of the hotel.
+                </p>
                 <div class="row">
 
                     <div class="col-lg-12 ">
@@ -31,6 +33,8 @@
                             </a>
                         </div>
                     </div>
+
+
 
                     <div class="col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
                         <div class="bg-image hover-overlay">
