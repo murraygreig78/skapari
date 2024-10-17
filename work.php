@@ -27,19 +27,19 @@
                                                 <ul style="padding: 0;">
                                                     <li>
                                                         <a class="p-3" href="/classic-elegance-south-africa">
-                                                            SOUTH AFRICA: Classic Elegance
+                                                            South Africa: Classic Elegance
                                                         </a></li>
                                                     <li>
                                                         <a class="p-3" href="/radisson-cape-town">
-                                                            SOUTH AFRICA: Radisson Cape Town
+                                                            South Africa: Radisson - Cape Town
                                                         </a></li>
                                                     <li>
                                                         <a class="p-3" href="/ibis-styles-plateau">
-                                                            IBIS STYLES: Plateau
+                                                            Côte d'Ivoire: Ibis Styles - Plateau
                                                         </a></li>
                                                     <li>
                                                         <a class="p-3" href="/ibis-styles-marcory">
-                                                            IBIS STYLES: Marcory
+                                                            Côte d'Ivoire: Ibis Styles - Marcory
                                                         </a></li>
 
                                                 </ul>
@@ -57,11 +57,11 @@
                                                 <ul style="padding: 0;">
                                                     <li>
                                                         <a class="p-3" href="/accor-office-contemporary">
-                                                            ACCOR OFFICE: contemporary
+                                                            Accor Office: Contemporary
                                                         </a></li>
                                                     <li>
                                                         <a class="p-3" href="/wework-eyeofafrica">
-                                                            SOUTH AFRICA: WeWork Eye of Africa
+                                                            South Africa: WeWork Eye of Africa
                                                         </a></li>
                                                 </ul>
                                             </div>
@@ -78,12 +78,12 @@
                                                 <ul style="">
                                                     <li>
                                                         <a class="p-3" href="/abudhabi-elegance">
-                                                            ABU DHABI: elegance
+                                                            Abu Dhabi: Elegance
                                                         </a></li>
 
                                                     <li>
                                                         <a class="p-3" href="/apartment-jeoffry-south-africa">
-                                                            SOUTH AFRICA : Apartment Jeoffry
+                                                            South Africa: Apartment Jeoffry
                                                         </a></li>
                                                 </ul>
                                             </div>
@@ -103,7 +103,7 @@
                                                 <ul style="padding: 0;">
                                                     <li>
                                                         <a class="p-3" href="/south-africa-project-1">
-                                                            SOUTH AFRICA: Bedroom concept
+                                                            South Africa: Bedroom concept
                                                         </a></li>
                                                 </ul>
                                             </div>
