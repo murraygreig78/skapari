@@ -3,7 +3,8 @@
 <head>
 
     <title>Home - Skapari</title>
-   <?php include('head.php'); ?>
+    <?php
+    include('head.php'); ?>
 </head>
 <body class="skapari">
 <div class="wrapper" style="background: url('/assets/images/ska_grey_bg.png') no-repeat fixed center">
@@ -39,6 +40,10 @@
                                                     <li>
                                                         <a class="p-3" href="/ibis-styles-marcory">
                                                             Côte d'Ivoire: Ibis Styles - Marcory
+                                                        </a></li>
+                                                    <li>
+                                                        <a class="p-3" href="/cameroon-pullman">
+                                                            Cameroon: Pullman
                                                         </a></li>
 
                                                 </ul>
@@ -108,6 +113,16 @@
                                                     <li>
                                                         <a class="p-3" href="/sal-cape-verde-luxury">
                                                             Sal Cape Verde: Luxury
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="p-3" href="/upgrade-to-clubhouse">
+                                                            Zambia: Upgrade to Clubhouse
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="p-3" href="/ghana-conceptual">
+                                                            Ghana: Conceptual
                                                         </a>
                                                     </li>
                                                 </ul>
