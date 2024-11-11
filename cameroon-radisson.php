@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- saved from url=(0054)http://localhost/skapari/project/sal-cape-verde -->
 <html lang="en">
-<head><title>Skapari - Cameroon: Pullman </title>
+<head><title>Skapari - Cameroon: Radisson </title>
     <?php
     include('head.php'); ?>
 </head>
@@ -15,7 +15,7 @@
     <section class="container">
         <div class="row">
             <div class="col-md-10 offset-md-1 heading">
-                <h3 class="skapari-heading  Hospitality">Hospitality<span>  Cameroon: Pullman</span>
+                <h3 class="skapari-heading  Hospitality">Hospitality<span>  Cameroon: Radisson</span>
                 </h3>
             </div>
         </div>
@@ -84,6 +84,14 @@
                         <div class="bg-image hover-overlay">
                             <a href="assets/images/cameroon-pullman/cameroon-pullman8.jpg" data-fslightbox="">
                                 <img src="assets/images/cameroon-pullman/cameroon-pullman8.jpg" class="w-100">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6 mt-4">
+                        <div class="bg-image hover-overlay">
+                            <a href="assets/images/cameroon-pullman/cameroon-pullman9.jpg" data-fslightbox="">
+                                <img src="assets/images/cameroon-pullman/cameroon-pullman9.jpg" class="w-100">
                             </a>
                         </div>
                     </div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- saved from url=(0065)http://localhost/skapari/project/livingstone-zambia-mosi-oa-tunya -->
 <html lang="en">
-<head><title>Skapari - LIVINGSTONE ZAMBIA: Mosi Oa Tunya </title>
+<head><title>Skapari - Livingstone Zambia: Mosi Oa Tunya </title>
     <?php
     include('head.php'); ?>
 </head>
@@ -15,7 +15,7 @@
     <section class="container">
         <div class="row">
             <div class="col-md-10 offset-md-1 heading">
-                <h3 class="skapari-heading  Hospitality">Hospitality<span>  LIVINGSTONE ZAMBIA:  Mosi Oa Tunya</span>
+                <h3 class="skapari-heading  Hospitality">Hospitality<span>  Livingstone Zambia:  Mosi Oa Tunya</span>
                 </h3>
             </div>
         </div>

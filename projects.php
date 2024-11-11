@@ -42,10 +42,14 @@
                                                             Côte d'Ivoire: Ibis Styles - Marcory
                                                         </a></li>
                                                     <li>
-                                                        <a class="p-3" href="/cameroon-pullman">
-                                                            Cameroon: Pullman
+                                                        <a class="p-3" href="/cameroon-radisson">
+                                                            Cameroon: Radisson
                                                         </a></li>
-
+                                                    <li>
+                                                        <a class="p-3" href="/livingstone-zambia-mosi-oa-tunya">
+                                                            Zambia: Radisson - Mosi oa Tunya
+                                                        </a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
