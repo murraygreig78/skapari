@@ -32,7 +32,14 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="mb-4 mb-lg-0 text-center">
-                                <small class="">Skapari (Pty) Ltd, 2nd Floor, Mesh Club, Trumpet On Keyes, 21 Keyes Avenue, Rosebank, Johannesburg </small>
+                                <small class="">Johannesburg Office: SPACES Design Quarter, Design Quarter, Leslie Rd, Fourways, Johannesburg, 2191 </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mb-4 mb-lg-0 text-center">
+                                <small class="">Cape Town Office: Manor House, Farm 3, Vineyards Office Estate, 99 Jip De Jager Dr, De Bron, Cape Town, 7530 </small>
                             </div>
                         </div>
                     </div>
