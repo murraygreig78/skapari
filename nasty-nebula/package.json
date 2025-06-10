@@ -1,0 +1,21 @@
+{
+  "name": "nasty-nebula",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.9.1",
+    "bootstrap": "^4.5.3"
+  },
+  "devDependencies": {
+    "sass": "^1.89.1",
+    "stylelint": "^16.20.0",
+    "stylelint-config-recommended-scss": "^15.0.1",
+    "stylelint-config-standard": "^38.0.0"
+  }
+}
