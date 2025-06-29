@@ -1,3 +1,10 @@
+---
+interface Props {
+	title: string;
+	}
+
+const { title } = Astro.props;
+---
 <!doctype html>
 <html lang="en">
 	<head>
@@ -8,7 +15,7 @@
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Skapari</title>
+		<title>{title}</title>
         <!--<link rel="stylesheet" href="/assets/css/styles.css">-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,600&display=swap" rel="stylesheet">
         <!--<script id="usercentrics-cmp" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" data-settings-id="PqQBefBrFMqKqM" async></script>-->
@@ -32,7 +39,7 @@
 					<!-- Links -->
 					<ul class="mainnav navbar-nav mr-auto">
 						<li class="nav-item inactive">
-							<a class="nav-link " href="https://skapari.co.za">home</a>
+							<a class="nav-link " href="/">home</a>
 						</li>
 						<li class="nav-item active">
 							<a class="nav-link" href="/about">about</a>
