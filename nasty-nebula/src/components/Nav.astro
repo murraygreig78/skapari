@@ -1,33 +1,34 @@
 ---
 // Convert the PHP nav.php to an Astro component
+const { navclass } = Astro.props;
 ---
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">
-      <img src="/assets/images/skapari-logo.png" alt="Skapari" class="img-fluid">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+<header class={navclass}>
+  <nav class="navbar" id="main-nav">
+    <button class="navbar-toggler third-button ml-auto hidden-sm-up float-xs-right collapsed" type="button" data-toggle="collapse" data-target="#topnavigation" aria-controls="topnavigation" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon3"><span></span><span></span><span></span></div>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/">home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about">about</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/projects">projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/curated">curated</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contact">contact</a>
-        </li>
-      </ul>
+    <div class="navbar-collapse collapse" id="topnavigation" style="">
+      <div class="overlay-content">
+        <!-- Links -->
+        <ul class="mainnav navbar-nav mr-auto">
+          <li class="nav-item inactive">
+            <a class="nav-link " href="https://skapari.co.za">home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/about">about</a>
+          </li>
+          <li class="nav-item inactive">
+            <a class="nav-link" href="/projects">our work</a>
+          </li>
+          <li class="nav-item inactive">
+            <a class="nav-link" href="/curated">curated</a>
+          </li>
+          <li class="nav-item inactive">
+            <a class="nav-link" href="/contact">contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav> 
+  </nav>
+</header>
