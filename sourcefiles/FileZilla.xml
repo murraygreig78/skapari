@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileZilla3 version="3.66.5" platform="mac">
+	<Queue>
+		<Server>
+			<Host>skapari.co.za</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>skapatkmap_0</User>
+			<Pass encoding="crypt" pubkey="jXKb/a5nYlk6Ixav7O2Udb+/zvObt29zELj79iVDIR0i/kPTwc+zUMSIO5rLrP3xSiDUWTu0sTBo12pdKtFSPg">4oHNxJOdq4dN1EHfzGO5+Zcq2Xsn1jyax+tIqPt5p0wDGMReqTgK7Jo11rMYQKSKA3n9Pk0j3Kn/gPUOKtiF5M3+skf7jtIAUnEhRLG3I+1jhgN7c4fa2Ju7mRmLDGwOzq/g+w</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>skapari.co.za</Name>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Villa Suite with terrace &amp; Zimbabwe River view (25214169).jpg</LocalFile>
+				<RemoteFile>Villa Suite with terrace &amp; Zimbabwe River view (25214169).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1739623</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/pages/projects/[project].astro</LocalFile>
+				<RemoteFile>[project].astro</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 5 pages 8 projects</RemotePath>
+				<Flags>0</Flags>
+				<Size>2482</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Premium Suite with terrace &amp; Zimbabwe River view - bathroom (25215233).jpg</LocalFile>
+				<RemoteFile>Premium Suite with terrace &amp; Zimbabwe River view - bathroom (25215233).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1488664</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Premium Villa Suite with terrace &amp; Zimbabwe River view - bathroom (25214567).jpg</LocalFile>
+				<RemoteFile>Premium Villa Suite with terrace &amp; Zimbabwe River view - bathroom (25214567).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1487989</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Villa Suite with terrace &amp; Zimbabwe River view (25217047).jpg</LocalFile>
+				<RemoteFile>Villa Suite with terrace &amp; Zimbabwe River view (25217047).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1784758</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Premium Room with terrace &amp; river view - bathroom (25209779).jpg</LocalFile>
+				<RemoteFile>Premium Room with terrace &amp; river view - bathroom (25209779).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1354451</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Royal Villa with terrace &amp; Zimbabwe River view - bathroom (25213517).jpg</LocalFile>
+				<RemoteFile>Royal Villa with terrace &amp; Zimbabwe River view - bathroom (25213517).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1475080</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Premium Room with terrace &amp; river view - twin beds (25210427).jpg</LocalFile>
+				<RemoteFile>Premium Room with terrace &amp; river view - twin beds (25210427).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1318415</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Premium Room with terrace &amp; river view - twin beds (25210449).jpg</LocalFile>
+				<RemoteFile>Premium Room with terrace &amp; river view - twin beds (25210449).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1051948</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Royal Villa with terrace &amp; Zimbabwe River view (25213509).jpg</LocalFile>
+				<RemoteFile>Royal Villa with terrace &amp; Zimbabwe River view (25213509).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1581859</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Premium Suite with terrace &amp; Zimbabwe River view (25214977).jpg</LocalFile>
+				<RemoteFile>Premium Suite with terrace &amp; Zimbabwe River view (25214977).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1352792</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Premium Room with terrace &amp; river view - twin beds (25210443).jpg</LocalFile>
+				<RemoteFile>Premium Room with terrace &amp; river view - twin beds (25210443).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1094967</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Premium Suite with terrace &amp; Zimbabwe River view (25215253).jpg</LocalFile>
+				<RemoteFile>Premium Suite with terrace &amp; Zimbabwe River view (25215253).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>2198998</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Royal Villa with terrace &amp; Zimbabwe River view (25213523).jpg</LocalFile>
+				<RemoteFile>Royal Villa with terrace &amp; Zimbabwe River view (25213523).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1354333</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Suite with terrace &amp; Zimbabwe River view - bathroom (25216281)1.jpg</LocalFile>
+				<RemoteFile>Suite with terrace &amp; Zimbabwe River view - bathroom (25216281)1.jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1311040</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Suite with terrace &amp; Zimbabwe River view (25216295).jpg</LocalFile>
+				<RemoteFile>Suite with terrace &amp; Zimbabwe River view (25216295).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1445827</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Premium Room with terrace &amp; river view - twin beds (25210475).jpg</LocalFile>
+				<RemoteFile>Premium Room with terrace &amp; river view - twin beds (25210475).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1319961</Size>
+			</File>
+			<File>
+				<LocalFile>/Users/murraygreig/skapari_astro/astro/src/assets/images/mosi-livingstone/Premium Room with terrace &amp; river view - bathroom (25210465).jpg</LocalFile>
+				<RemoteFile>Premium Room with terrace &amp; river view - bathroom (25210465).jpg</RemoteFile>
+				<RemotePath>1 0 5 astro 3 src 6 assets 6 images 16 mosi-livingstone</RemotePath>
+				<Flags>0</Flags>
+				<Size>1353081</Size>
+			</File>
+		</Server>
+	</Queue>
+</FileZilla3>
