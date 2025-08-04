@@ -1,0 +1,76 @@
+---
+import projects from '../../projects.json';
+
+export function getStaticPaths() {
+    return projects.map(project => ({ params: { project: project.slug } }));
+}
+
+const { project: projectSlug } = Astro.params;
+const project = projects.find((p) => p.slug === projectSlug);
+
+import Layout from '../../layouts/Layout.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+---
+<Layout title={project ? `${project.name} - Skapari` : 'Project Not Found - Skapari'}>
+  <Nav/>
+  <section class="container">
+    {project ? (
+      <>
+        <div class="row">
+          <div class="col-md-10 offset-md-1 heading">
+            <h3 class="skapari-heading {project.category}">
+              {project.category}
+              <span>  {project.name}</span>
+            </h3>
+            {project.status && (
+              <div class="mb-2"><strong>Status:</strong> {project.status}</div>
+            )}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            {'description' in project && project.description && <p class="well">{project.description}</p>}
+            <div class="row">
+              {project.images && project.images.length > 0 ? (
+                project.images.map((img, idx) => (
+                  <div class={idx === 0 ? 'col-lg-12' : 'project-thumb col-lg-3 col-md-4 col-sm-4 col-6 mt-4'}>
+                    <div class="bg-image hover-overlay">
+                      <a href={img} data-fslightbox>
+                        <img src={img} class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                ))
+              ) : (
+                <div class="col-12">
+                  <img src={project.img} class="w-100" alt={project.name} />
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 offset-md-1 text-right">
+            <a class="nav-link p-2 m-5" href="/projects">&#8592; back to our work</a>
+          </div>
+        </div>
+      </>
+    ) : (
+      <div class="row">
+        <div class="col-md-10 offset-md-1">
+          <h2>Project Not Found</h2>
+          <a class="nav-link p-2 m-5" href="/projects">&#8592; back to our work</a>
+        </div>
+      </div>
+    )}
+  </section>
+  <Footer/>
+</Layout>
+<style>
+  .project-thumb img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+  }
+</style>

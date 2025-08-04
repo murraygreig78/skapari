@@ -1,0 +1,348 @@
+[
+    {
+        "slug": "livingstone-zambia-mosi-oa-tunya",
+        "url": "/projects/livingstone-zambia-mosi-oa-tunya",
+        "img": "/assets/images/projects/livingstone-zambia-mosi-oa-tunya.jpg",
+        "name": "Livingstone Zambia Mosi-oa-Tunya",
+        "images": [
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212b96f28e715387259.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212ad3ee79281206731.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212ab435f2907894864.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212aba1964396161307.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212aeb945d686798711.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212b0bf877495142385.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212b247e90105551089.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212b318111676349949.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212b13bdf5463405773.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212aee58f7231352445.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212ad9e928816798816.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212bde05a9548063466.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212b8d54e2523235622.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64be77c602fc5581056550.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64be77c93b15e148626103.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64be77c627135994363812.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64be77c8c4b2e957864773.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64be77cb15a24247179182.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64be77cb97ffb707634025.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212bdf0709066532732.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212c991b41069951071.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212c2ec64b691055108.jpg",
+            "/src/assets/images/livingstone-zambia-mosi-oa-tunya/64d212c851e50940144365.jpg"
+        ]
+    },
+    {
+        "slug": "cameroon-radisson",
+        "url": "/projects/cameroon-radisson",
+        "img": "/assets/images/projects/cameroon-radisson.jpg",
+        "name": "Cameroon Radisson",
+        "category": "Hospitality",
+        "status": "Completed",
+        "images": [
+            "/src/assets/images/cameroon-pullman/cameroon-pullman2.jpg",
+            "/src/assets/images/cameroon-pullman/cameroon-pullman1.jpg",
+            
+            "/src/assets/images/cameroon-pullman/cameroon-pullman3.jpg",
+            "/src/assets/images/cameroon-pullman/cameroon-pullman4.jpg",
+            "/src/assets/images/cameroon-pullman/cameroon-pullman5.jpg",
+            "/src/assets/images/cameroon-pullman/cameroon-pullman6.jpg",
+            "/src/assets/images/cameroon-pullman/cameroon-pullman7.jpg",
+            "/src/assets/images/cameroon-pullman/cameroon-pullman8.jpg"
+        ]
+    },
+    {
+        "slug": "ghana-conceptual",
+        "url": "/projects/ghana-conceptual",
+        "img": "/assets/images/projects/ghana-conceptual.jpg",
+        "name": "Ghana Conceptual",
+        "category": "Hospitality",
+        "status": "Conceptual",
+        "images": [
+            "/src/assets/images/ghana-conceptual/ghana-conceptual1.jpg",
+            "/src/assets/images/ghana-conceptual/ghana-conceptual2.jpg",
+            "/src/assets/images/ghana-conceptual/ghana-conceptual3.jpg",
+            "/src/assets/images/ghana-conceptual/ghana-conceptual4.jpg",
+            "/src/assets/images/ghana-conceptual/ghana-conceptual5.jpg",
+            "/src/assets/images/ghana-conceptual/ghana-conceptual6.jpg",
+            "/src/assets/images/ghana-conceptual/ghana-conceptual7.jpg"
+        ]
+    },
+    {
+        "slug": "upgrade-to-clubhouse",
+        "url": "/projects/upgrade-to-clubhouse",
+        "img": "/assets/images/projects/upgrade-to-clubhouse.jpg",
+        "name": "Upgrade to Clubhouse",
+        "category": "Hospitality",
+        "status": "Conceptual",
+        "images": [
+            "/src/assets/images/upgrade-to-clubhouse/upgrade-to-clubhouse1.jpg",
+            "/src/assets/images/upgrade-to-clubhouse/upgrade-to-clubhouse2.jpg"
+        ]
+    },
+    {
+        "slug": "sal-cape-verde-luxury",
+        "url": "/projects/sal-cape-verde-luxury",
+        "img": "/assets/images/projects/sal-cape-verde-luxury.jpg",
+        "name": "Sal Cape Verde Luxury",
+        "category": "Hospitality",
+        "status": "Conceptual",
+        "images": [
+            "/src/assets/images/sal-cape-verde/Sal Cape Verde 1.jpg",
+            "/src/assets/images/sal-cape-verde/Sal Cape Verde 2.jpg",
+            "/src/assets/images/sal-cape-verde/Sal Cape Verde 3.jpg",
+            "/src/assets/images/sal-cape-verde/Sal Cape Verde 4.jpg",
+            "/src/assets/images/sal-cape-verde/Sal Cape Verde 5.jpg",
+            "/src/assets/images/sal-cape-verde/Sal Cape Verde 6.jpg",
+            "/src/assets/images/sal-cape-verde/Sal Cape Verde 7.jpg",
+            "/src/assets/images/sal-cape-verde/Sal Cape Verde 8.jpg",
+            "/src/assets/images/sal-cape-verde/Sal Cape Verde 9.jpg"
+        ]
+    },
+    {
+        "slug": "lusaka-zambia-independant",
+        "url": "/projects/lusaka-zambia-independant",
+        "img": "/assets/images/projects/lusaka-zambia-independant.jpg",
+        "name": "Lusaka Zambia Independent",
+        "category": "Hospitality",
+        "status": "Completed",
+        "images": [
+            "/src/assets/images/lusaka-zambia-independant/65082cd1cba48443702288.jpg",
+            "/src/assets/images/lusaka-zambia-independant/65082cd1bd161997178101.jpg"
+        ],
+        "description": "Curio Collection by Hilton is an upscale hotel brand within Hilton’s portfolio. Curio Collection is a soft brand, meaning its hotels are supported by Hilton, but retain their own individual branding. Hilton selects independent hotels and resorts to be part of Curio Collection."
+    },
+    {
+
+        "slug": "ibis-styles-plateau",
+        "url": "/projects/ibis-styles-plateau",
+        "img": "/assets/images/projects/ibis-styles-plateau.jpg",
+        "name": "Ibis Styles Plateau",
+        "category": "Hospitality",
+        "status": "Completed",
+        "images": [
+            "/src/assets/images/ibis-styles-plateau/ibis-styles-plateau-1.jpg",
+            "/src/assets/images/ibis-styles-plateau/ibis-styles-plateau-2.jpg",
+            "/src/assets/images/ibis-styles-plateau/ibis-styles-plateau-3.jpg",
+            "/src/assets/images/ibis-styles-plateau/ibis-styles-plateau-4.jpg",
+            "/src/assets/images/ibis-styles-plateau/ibis-styles-plateau-5.jpg",
+            "/src/assets/images/ibis-styles-plateau/ibis-styles-plateau-6.jpg"
+        ],
+        "description": "A fabulous brief to follow. The Ibis styles brand ethos is ‘Always playful, never predictable’. Inspired by local patterns, Skapari created bold striking interiors using playful, vivid colours with locally sourced bespoke artwork. This creates a surprising and bold immersive experience that brings a smile to your face."
+    },
+    {
+
+        "slug": "ibis-styles-marcory",
+        "url": "/projects/ibis-styles-marcory",
+        "img": "/assets/images/projects/ibis-styles-marcory.jpg",
+        "name": "Ibis Styles Marcory",
+        "category": "Hospitality",
+        "status": "Completed",
+        "images": [
+            "/src/assets/images/ibis-styles-marcory/ibis-styles-marcory-2.jpg",
+            "/src/assets/images/ibis-styles-marcory/ibis-styles-marcory-1.jpg",
+            
+            "/src/assets/images/ibis-styles-marcory/ibis-styles-marcory-3.jpg",
+            "/src/assets/images/ibis-styles-marcory/ibis-styles-marcory-4.jpg",
+            "/src/assets/images/ibis-styles-marcory/ibis-styles-marcory-5.jpg",
+            "/src/assets/images/ibis-styles-marcory/ibis-styles-marcory-6.jpg"
+        ],
+        "description": "A fabulous brief to follow. The Ibis styles brand ethos is ‘Always playful, never predictable’. Inspired by local patterns, Skapari created bold striking interiors using playful, vivid colours with locally sourced bespoke artwork. This creates a surprising and bold immersive experience that brings a smile to your face."
+    },
+    {
+
+        "slug": "classic-elegance-south-africa",
+        "url": "/projects/classic-elegance-south-africa",
+        "img": "/assets/images/projects/classic-elegance-south-africa.jpg",
+        "name": "Classic Elegance South Africa",
+        "category": "Hospitality",
+        "status": "Completed",
+        "images": [
+            "/src/assets/images/classic-elegance-south-africa/5fc499bb1780b320956034.jpg",
+            "/src/assets/images/classic-elegance-south-africa/5fc499bb61075421760434.jpg"
+        ],
+        "description": "Luxury Brand - Soft refurbishment, stunning and almost iconic building but most certainly an incredibly recognizable building. We created an elegant and timeless interior, balanced with contemporary elements to bring this building into 21st century but still embracing its history."
+    },
+    {
+
+        "slug": "radisson-cape-town",
+        "url": "/projects/radisson-cape-town",
+        "img": "/assets/images/projects/radisson-cape-town.jpg",
+        "name": "Radisson Cape Town",
+        "category": "Hospitality",
+        "status": "Completed",
+        "images": [
+            "/src/assets/images/park-inn/16256-114811-f80879484_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80868128_3xl copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80868304_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80868344_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80879466_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80879482_4k copy.jpeg",
+            
+            "/src/assets/images/park-inn/16256-114811-f80879608_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80970582_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80971048_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80971776_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80979476_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80979496_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f89768340_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f89768394_4k copy.jpeg"
+        ],
+        "description": "The renovation of the Park Inn to a Radisson in Foreshore, led by Skapari, aimed to create and enhance the experience by combining convenience, practicality, and understated elegance and simplicity. The design focuses on creating spaces that are open and light, infusing vitality and functionality into all corners of the hotel."
+    },
+    {
+
+        "slug": "wework-eyeofafrica",
+        "url": "/projects/wework-eyeofafrica",
+        "img": "/assets/images/projects/wework-eyeofafrica.jpg",
+        "name": "WeWork Eye of Africa",
+        "category": "Commercial",
+        "images": [
+            "/src/assets/images/wework-eyeofafrica/5fcd2bff80f2e041726909.jpg",
+            "/src/assets/images/wework-eyeofafrica/5fcd2c24e2fcf293038162.jpg"
+        ],
+        "description": "Both We Work and the Members lounge is a comfortable, contemporary and sophisticated area to afford clients the ability to work and to network out of the conventional corporate environment."
+    },
+    {
+
+        "slug": "accra-ghana-understated",
+        "url": "/projects/accra-ghana-understated",
+        "img": "/assets/images/projects/accra-ghana-understated.jpg",
+        "name": "Accra Ghana Understated",
+        "images": [
+            "/src/assets/images/accra-ghana-understated/606ee4e80e0ed438027835.jpg",
+            "/src/assets/images/accra-ghana-understated/606ee505c83e1751484821.jpg",
+            "/src/assets/images/accra-ghana-understated/606ee50f03e0a023057216.jpg"
+        ],
+        "description": "Create a contemporary and open office with a very strong and distinctive look. To create the unexpected, a unique personality…"
+    },
+    {
+
+        "slug": "accor-office-contemporary",
+        "url": "/projects/accor-office-contemporary",
+        "img": "/assets/images/projects/accor-office-contemporary.jpg",
+        "name": "Accor Office Contemporary",
+        "category": "Commercial",
+        "images": [
+            "/src/assets/images/accor-office-contemporary/606ee4e80e0ed438027835.jpg",
+            "/src/assets/images/accor-office-contemporary/606ee505c83e1751484821.jpg",
+            "/src/assets/images/accor-office-contemporary/606ee50f03e0a023057216.jpg"
+        ],
+        "description": "Create a contemporary and open office with a very strong and distinctive look. To create the unexpected, a unique personality…"
+    },
+    {
+
+        "slug": "abudhabi-elegance",
+        "url": "/projects/abudhabi-elegance",
+        "img": "/assets/images/projects/abudhabi-elegance.jpg",
+        "name": "Abu Dhabi Elegance",
+        "category": "Residential",
+        "status": "Completed",
+        "images": [
+            "/src/assets/images/abu-dhabi-elegance/abu-dhabi-elegance-1.jpg",
+            "/src/assets/images/abu-dhabi-elegance/abu-dhabi-elegance-2.jpg",
+            "/src/assets/images/abu-dhabi-elegance/abu-dhabi-elegance-3.jpg",
+            "/src/assets/images/abu-dhabi-elegance/abu-dhabi-elegance-4.jpg",
+            "/src/assets/images/abu-dhabi-elegance/abu-dhabi-elegance-5.jpg",
+            "/src/assets/images/abu-dhabi-elegance/abu-dhabi-elegance-6.jpg",
+            "/src/assets/images/abu-dhabi-elegance/abu-dhabi-elegance-7.jpg"
+        ],
+        "description": "To create intimate and layered interiors where one can unwind and relax. Rich and luxurious... Textured, intimate and refined... Create interiors everyone wants."
+    },
+    {
+
+        "slug": "south-africa-project-1",
+        "url": "/projects/south-africa-project-1",
+        "img": "/assets/images/projects/south-africa-project-1.jpg",
+        "name": "South Africa Project 1",
+        "images": [
+            "/src/assets/images/south-africa-project-1/Bedroom_Main_002.3.jpg"
+        ]
+    },
+    {
+
+        "slug": "mosi-livingstone",
+        "url": "/projects/mosi-livingstone",
+        "img": "/assets/images/projects/mosi-livingstone.jpg",
+        "name": "Mosi Livingstone",
+        "category": "Hospitality",
+        "status": "Completed",
+        "images": [
+            "/src/assets/images/mosi-livingstone/pool-25697071.jpg",
+            "/src/assets/images/mosi-livingstone/pool-25697091.jpg",
+            "/src/assets/images/mosi-livingstone/pool-25697093.jpg",
+            "/src/assets/images/mosi-livingstone/premium-room-terrace-river-bathroom-25209779.jpg",
+            "/src/assets/images/mosi-livingstone/premium-room-terrace-river-bathroom-25210465.jpg",
+            "/src/assets/images/mosi-livingstone/premium-room-terrace-river-twin-beds-25210427.jpg",
+            "/src/assets/images/mosi-livingstone/premium-room-terrace-river-twin-beds-25210443.jpg",
+            "/src/assets/images/mosi-livingstone/premium-room-terrace-river-twin-beds-25210449.jpg",
+            "/src/assets/images/mosi-livingstone/premium-room-terrace-river-twin-beds-25210475.jpg",
+            "/src/assets/images/mosi-livingstone/premium-suite-terrace-zimbabwe-river-25214977.jpg",
+            "/src/assets/images/mosi-livingstone/premium-suite-terrace-zimbabwe-river-25215253.jpg",
+            "/src/assets/images/mosi-livingstone/premium-suite-terrace-zimbabwe-river-bathroom-25215233.jpg",
+            "/src/assets/images/mosi-livingstone/premium-villa-suite-terrace-zimbabwe-river-bathroom-25214567.jpg",
+            "/src/assets/images/mosi-livingstone/rb-mosi-hotel-pool-25697099.jpg",
+            "/src/assets/images/mosi-livingstone/river-cruiser-restaurant-25429181.jpg",
+            "/src/assets/images/mosi-livingstone/river-cruiser-restaurant-25429183.jpg",
+            "/src/assets/images/mosi-livingstone/river-cruiser-restaurant-25429185.jpg",
+            "/src/assets/images/mosi-livingstone/royal-villa-terrace-zimbabwe-river-25213509.jpg",
+            "/src/assets/images/mosi-livingstone/royal-villa-terrace-zimbabwe-river-25213523.jpg",
+            "/src/assets/images/mosi-livingstone/royal-villa-terrace-zimbabwe-river-bathroom-25213517.jpg",
+            "/src/assets/images/mosi-livingstone/suite-terrace-zimbabwe-river-25216295.jpg",
+            "/src/assets/images/mosi-livingstone/suite-terrace-zimbabwe-river-bathroom-25216281-1.jpg",
+            "/src/assets/images/mosi-livingstone/two-bedroom-presidential-villa-terrace-25213017.jpg",
+            "/src/assets/images/mosi-livingstone/two-bedroom-presidential-villa-terrace-25213021.jpg",
+            "/src/assets/images/mosi-livingstone/villa-suite-terrace-zimbabwe-river-25214169.jpg",
+            "/src/assets/images/mosi-livingstone/villa-suite-terrace-zimbabwe-river-25217047.jpg"
+        ],
+        "description": "Journey into the unexpected - the vast beauty of Africa and its surrounding plains. Etched into beaded fabrics, snapshot of exotic and majestic wildlife. Sublime and evocation…"
+    },
+    {
+
+        "slug": "south-africa-project-pending-1",
+        "url": "/projects/south-africa-project-pending-1",
+        "img": "/assets/images/projects/south-africa-project-pending-1.jpg",
+        "name": "South Africa Project Pending 1",
+        "images": [
+            "/src/assets/images/south-africa-project-pending-1/thumb_106_300_200_0_0_auto.jpg",
+            "/src/assets/images/south-africa-project-pending-1/thumb_107_920_520_0_0_auto.jpg"
+        ]
+    },
+    {
+
+        "slug": "apartment-jeoffry-south-africa",
+        "url": "/projects/apartment-jeoffry-south-africa",
+        "img": "/assets/images/projects/apartment-jeoffry-south-africa.jpg",
+        "name": "Apartment Jeoffry South Africa",
+        "category": "Residential",
+        "images": [
+            "/src/assets/images/apartment-jeoffry-south-africa/606ee3e909700543650425.jpg",
+            "/src/assets/images/apartment-jeoffry-south-africa/606ee3fddc933530577993.jpg",
+            "/src/assets/images/apartment-jeoffry-south-africa/606ee42d9fd39219320716.jpg",
+            "/src/assets/images/apartment-jeoffry-south-africa/606ee45ea0c3e642636039.jpg",
+            "/src/assets/images/apartment-jeoffry-south-africa/606ee46e18f8e545415045.jpg",
+            "/src/assets/images/apartment-jeoffry-south-africa/606ee47f8ff6a802686063.jpg"
+        ]
+    },
+    {
+        "slug": "park-inn",
+        "url": "/projects/park-inn",
+        "img": "/assets/images/projects/park-inn.jpg",
+        "name": "Park Inn",
+        "images": [
+            "/src/assets/images/park-inn/16256-114811-f80879482_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80971776_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80868344_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80970582_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80879484_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80879608_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f89768394_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f89768340_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80868128_3xl copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80979496_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80979476_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80868304_4k copy.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80971048_4k copy.jpeg",
+            "/src/assets/images/park-inn/Untitled 2.jpeg",
+            "/src/assets/images/park-inn/16256-114811-f80879466_4k copy.jpeg"
+        ]
+    }
+]

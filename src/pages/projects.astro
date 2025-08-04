@@ -1,0 +1,67 @@
+---
+import Layout from '../../src/layouts/Layout.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import projectsData from '../projects.json';
+import ProjectGrid from '../components/ProjectGrid.svelte';
+
+const categories = [
+  { id: 'hospitality', label: 'Hospitality' },
+  { id: 'commercial', label: 'Commercial' },
+  { id: 'residential', label: 'Residential' }
+];
+---
+
+<Layout title="Skapari - Projects">
+  <div class="wrapper ">
+    <Nav navclass="header bg-dark"/>
+    <section class="section bg-dark" id="projects">
+      <div class="container-fluid">
+        <div class="overlay-content">
+          <h1 class="text-right main-heading">projects</h1>
+        </div>
+      </div>
+    </section>
+    <ProjectGrid client:load projects={projectsData} categories={categories} />
+  </div>
+  <Footer />
+</Layout>
+
+<style>
+  .project-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .project-link img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .project-link h4 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .subnav {
+    margin-bottom: 2rem;
+  }
+  .subnav .nav-link {
+    color: #333;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    transition: color 0.2s;
+    cursor: pointer;
+  }
+  .subnav .nav-link.active {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  .subnav .nav-link:hover {
+    color: #007bff;
+  }
+  .category-section {
+    padding-top: 2rem;
+  }
+</style> 
