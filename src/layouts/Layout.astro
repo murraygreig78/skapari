@@ -26,10 +26,10 @@ const { title } = Astro.props;
 </head>
 <body class="skapari">
 <slot />
-<script type="text/javascript" src="/js/jquery.min.js"></script>
-<script type="text/javascript" src="/js/fslightbox.js"></script>
-<script type="text/javascript" src="/js/bootstrap.bundle.js"></script>
-<script type="text/javascript" src="/js/all.js"></script>
-<script type="text/javascript" src="/js/app.js"></script>
+<script type="text/javascript" src={`${import.meta.env.BASE_URL}js/jquery.min.js`}></script>
+<script type="text/javascript" src={`${import.meta.env.BASE_URL}js/fslightbox.js`}></script>
+<script type="text/javascript" src={`${import.meta.env.BASE_URL}js/bootstrap.bundle.js`}></script>
+<script type="text/javascript" src={`${import.meta.env.BASE_URL}js/all.js`}></script>
+<script type="text/javascript" src={`${import.meta.env.BASE_URL}js/app.js`}></script>
 </body>
 </html>
