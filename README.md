@@ -1,34 +1,25 @@
-# Astro Starter Kit: Basics
+# Skapari Astro Portfolio
 
-```sh
-npm create astro@latest -- --template basics
-```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+A modern portfolio website built with Astro and Svelte, showcasing architectural and design projects.
 
 ## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
 
 ```text
 /
 ├── public/
-│   └── favicon.svg
+│   ├── favicon.svg
+│   ├── images/
+│   └── js/
 ├── src/
+│   ├── assets/
+│   │   └── images/
+│   ├── components/
 │   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
+│   ├── pages/
+│   ├── projects.json
+│   └── styles/
 └── package.json
 ```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
 ## 🧞 Commands
 
@@ -43,6 +34,42 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
+## 🌐 Deployment
+
+This site is automatically deployed to GitHub Pages using GitHub Actions.
+
+### Live Site
+- **URL**: https://murraygreig.github.io/skapari_astro/
+
+### Deployment Process
+1. Push changes to the `main` branch
+2. GitHub Actions automatically builds and deploys the site
+3. The site is available at the URL above within a few minutes
+
+### Manual Deployment
+If you need to deploy manually:
+1. Go to your repository's **Actions** tab on GitHub
+2. Select the "Deploy to GitHub Pages" workflow
+3. Click "Run workflow" and select the branch
+
+## 🛠️ Technologies Used
+
+- **Astro** - Static site generator
+- **Svelte** - Component framework
+- **Bootstrap** - CSS framework
+- **Sass** - CSS preprocessor
+- **TypeScript** - Type safety
+
+## 📁 Project Organization
+
+- `src/pages/` - Astro pages and routes
+- `src/components/` - Reusable components
+- `src/assets/images/` - Project images and assets
+- `src/projects.json` - Project data
+- `public/` - Static assets served directly
+
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- [Astro Documentation](https://docs.astro.build)
+- [Svelte Documentation](https://svelte.dev/docs)
+- [GitHub Pages Deployment Guide](https://docs.astro.build/en/guides/deploy/github/)
