@@ -2,8 +2,18 @@
  * Application
  */
 
-$(document).tooltip({
-    selector: "[data-toggle=tooltip]"
+// Initialize Bootstrap 5 tooltips
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+// Initialize Bootstrap 5 collapse functionality
+var collapseElementList = [].slice.call(document.querySelectorAll('.collapse'))
+var collapseList = collapseElementList.map(function (collapseEl) {
+  return new bootstrap.Collapse(collapseEl, {
+    toggle: false
+  })
 })
 
 /*
