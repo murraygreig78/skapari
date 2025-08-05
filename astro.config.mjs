@@ -6,6 +6,6 @@ import svelte from '@astrojs/svelte';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://murraygreig.github.io',
-  base: 'skapari_astro',
+  base: 'skapari',
   integrations: [svelte()]
 });

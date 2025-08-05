@@ -39,7 +39,7 @@ All commands are run from the root of the project, from a terminal:
 This site is automatically deployed to GitHub Pages using GitHub Actions.
 
 ### Live Site
-- **URL**: https://murraygreig.github.io/skapari_astro/
+- **URL**: https://murraygreig.github.io/skapari/
 
 ### Deployment Process
 1. Push changes to the `main` branch
