@@ -1,0 +1,122 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import { Image } from 'astro:assets';
+
+// Import images for testing
+import circleLightsLeft from '../assets/images/circle_lights_left.png';
+import jackyRiejean from '../assets/images/jacky_riejean1.png';
+import skapariCurated from '../assets/images/skapari_curated.png';
+import radissonLogo from '../assets/images/radisson-logo 1.png';
+import accorLogo from '../assets/images/Accor-Logo 1.png';
+import curatedLogo from '../assets/images/curated logo.png';
+import skapariRune from '../assets/images/skapari-rune.svg';
+---
+
+<Layout title="Asset Test - Skapari">
+  <div class="wrapper">
+    <header class="header">
+      <Nav />
+    </header>
+    
+    <section class="section" id="asset-test">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>Asset Loading Test</h1>
+            
+            <!-- CSS Test -->
+            <div class="card mb-4">
+              <div class="card-header">
+                <h3>CSS Test</h3>
+              </div>
+              <div class="card-body">
+                <p class="text-primary">If this text is blue, CSS is loading correctly.</p>
+                <p class="text-success">If this text is green, Bootstrap CSS is working.</p>
+              </div>
+            </div>
+
+            <!-- Image Test -->
+            <div class="card mb-4">
+              <div class="card-header">
+                <h3>Image Test</h3>
+              </div>
+              <div class="card-body">
+                <h4>About Page Images:</h4>
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <Image src={circleLightsLeft} alt="Circle Lights Left" class="img-fluid" style="max-height: 200px;" />
+                    <p class="small">circle_lights_left.png</p>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <Image src={jackyRiejean} alt="Jacky & Riejean" class="img-fluid" style="max-height: 200px;" />
+                    <p class="small">jacky_riejean1.png</p>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <Image src={skapariCurated} alt="Skapari Curated" class="img-fluid" style="max-height: 200px;" />
+                    <p class="small">skapari_curated.png</p>
+                  </div>
+                </div>
+                
+                <h4>Logo Images:</h4>
+                <div class="row">
+                  <div class="col-md-3 mb-3">
+                    <Image src={radissonLogo} alt="Radisson Logo" class="img-fluid" style="max-height: 100px;" />
+                    <p class="small">radisson-logo 1.png</p>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <Image src={accorLogo} alt="Accor Logo" class="img-fluid" style="max-height: 100px;" />
+                    <p class="small">Accor-Logo 1.png</p>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <Image src={curatedLogo} alt="Curated Logo" class="img-fluid" style="max-height: 100px;" />
+                    <p class="small">curated logo.png</p>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <Image src={skapariRune} alt="Skapari Rune" class="img-fluid" style="max-height: 100px;" />
+                    <p class="small">skapari-rune.svg</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- JavaScript Test -->
+            <div class="card mb-4">
+              <div class="card-header">
+                <h3>JavaScript Test</h3>
+              </div>
+              <div class="card-body">
+                <button id="js-test" class="btn btn-primary">Test JavaScript</button>
+                <div id="js-result" class="mt-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <Footer />
+</Layout>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const testButton = document.getElementById('js-test');
+    const resultDiv = document.getElementById('js-result');
+    
+    if (testButton && resultDiv) {
+      testButton.addEventListener('click', function() {
+        resultDiv.innerHTML = '<div class="alert alert-success">JavaScript is working! ✅</div>';
+      });
+    }
+  });
+</script>
+
+<style>
+  .card {
+    margin-bottom: 2rem;
+  }
+  .card-header {
+    background-color: #f8f9fa;
+  }
+</style> 

@@ -2,6 +2,16 @@
 import Layout from '../layouts/Layout.astro';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
+import { Image } from 'astro:assets';
+
+// Import images
+import circleLightsLeft from '../assets/images/circle_lights_left.png';
+import circleLightsBottom from '../assets/images/circle_lights_bottom.png';
+import jackyRiejean from '../assets/images/jacky_riejean1.png';
+import skapariCurated from '../assets/images/skapari_curated.png';
+import curatedLogo from '../assets/images/curated logo.png';
+import radissonLogo from '../assets/images/radisson-logo 1.png';
+import accorLogo from '../assets/images/Accor-Logo 1.png';
 ---
 
 <Layout title="Skapari - About">
@@ -35,7 +45,7 @@ import Footer from '../components/Footer.astro';
       <div class="container-fluid">
         <div class="row">
           <div class="d-none d-md-block col-md-4">
-            <img src="/assets/images/circle_lights_left.png" alt="Skapari circle_lights" class="img-fluid" style="max-height: 100vh">
+            <Image src={circleLightsLeft} alt="Skapari circle_lights" class="img-fluid" style="max-height: 100vh" />
           </div>
           <div class="col-md-8">
             <div class="row">
@@ -50,7 +60,7 @@ import Footer from '../components/Footer.astro';
                 <p>After a careful study and understanding of the public and the location, we define the idea of the new project for ourselves, depending on the client's brief, while time frames and budget determine the specific tasks: what must be done to make the project work. We start seeking specific solutions which need to comply with the functional tasks: ergonomic effectiveness, navigation, logistics, lighting, materials tactile features - which all form the demanding high quality of our interiors. Everything in the hotel needs to be comfortable and user-friendly for the guests. They need to be able to unwind, even if they have business meetings.</p>
                 <p>After solving the functionality, we come to the design itself. The materials that we work with, objèts d'art, juxtaposed combinations - everything should create the mood for guests in harmonious combination with the geography and history of the location. Intimate and intricate layering - creating pockets of interests.</p>
                 <div class="d-block d-md-none d-lg-none d-xl-none">
-                  <img src="/assets/images/circle_lights_bottom.png" alt="Skapari circle lights" class="img-fluid mx-auto d-block">
+                  <Image src={circleLightsBottom} alt="Skapari circle lights" class="img-fluid mx-auto d-block" />
                 </div>
               </div>
             </div>
@@ -75,7 +85,7 @@ import Footer from '../components/Footer.astro';
         </div>
         <div class="row">
           <div class="col-sm-6 mx-auto">
-            <img src="/assets/images/jacky_riejean1.png" alt="jacky & riejean" class="img-fluid">
+            <Image src={jackyRiejean} alt="jacky & riejean" class="img-fluid" />
           </div>
         </div>
         <div class="row mt-5">
@@ -132,12 +142,12 @@ import Footer from '../components/Footer.astro';
         </div>
         <div class="row">
           <div class="col-sm-6 mx-auto">
-            <img src="/assets/images/skapari_curated.png" alt="Skapari curated" class="img-fluid">
+            <Image src={skapariCurated} alt="Skapari curated" class="img-fluid" />
           </div>
         </div>
         <div class="row mt-5">
           <div class="col-sm-3 mx-auto">
-            <img src="/assets/images/curated logo.png" alt="Skapari curated" class="img-fluid">
+            <Image src={curatedLogo} alt="Skapari curated" class="img-fluid" />
           </div>
         </div>
       </div>
@@ -156,12 +166,12 @@ import Footer from '../components/Footer.astro';
               <div class="col-md-3">&nbsp;</div>
               <div class="col-md-4">
                 <a target="_blank" href="https://skapari.co.za/storage/app/media/Letter%20of%20Recommendation%20-%20Iain%20Cook%20Radisson.pdf">
-                  <img src="/assets/images/radisson-logo 1.png" height="137" width="261" class="mx-auto"/>
+                  <Image src={radissonLogo} height={137} width={261} class="mx-auto" alt="Radisson Logo"/>
                 </a>
               </div>
               <div class="col-md-4">
                 <a target="_blank" href="https://skapari.co.za/storage/app/media/accor%20recommendation%20letter.pdf">
-                  <img src="/assets/images/Accor-Logo 1.png" height="128" width="227" class="mx-auto"/>
+                  <Image src={accorLogo} height={128} width={227} class="mx-auto" alt="Accor Logo"/>
                 </a>
               </div>
               <div class="col-md-3">&nbsp;</div>
