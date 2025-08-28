@@ -16,16 +16,16 @@ const { navclass } = Astro.props;
             <a class="nav-link " href="https://skapari.co.za">home</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="/about">about</a>
+            <a class="nav-link" href={new URL('/about', Astro.url)}>about</a>
           </li>
           <li class="nav-item inactive">
-            <a class="nav-link" href="/projects">our work</a>
+            <a class="nav-link" href={new URL('/projects', Astro.url)}>our work</a>
           </li>
           <li class="nav-item inactive">
-            <a class="nav-link" href="/curated">curated</a>
+            <a class="nav-link" href={new URL('/curated', Astro.url)}>curated</a>
           </li>
           <li class="nav-item inactive">
-            <a class="nav-link" href="/contact">contact</a>
+            <a class="nav-link" href={new URL('/contact', Astro.url)}>contact</a>
           </li>
         </ul>
       </div>
