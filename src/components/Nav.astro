@@ -32,3 +32,33 @@ const { navclass } = Astro.props;
     </div>
   </nav>
 </header>
+
+
+<style>
+/* Mobile styles for navigation */
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 3rem !important;
+    padding: 0.4rem 0.8rem !important;
+  }
+  
+  .nav-item {
+    margin-bottom: 0.2rem;
+  }
+  
+  .mainnav {
+    padding: 0.5rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-link {
+    font-size: 2.8rem !important;
+    padding: 0.3rem 0.6rem !important;
+  }
+  
+  .nav-item {
+    margin-bottom: 0.1rem;
+  }
+}
+</style>
