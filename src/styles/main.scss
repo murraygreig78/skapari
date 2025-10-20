@@ -1,0 +1,12 @@
+// Main SCSS file for Skapari
+// Clean SCSS structure without deprecated Bootstrap variables
+
+// Import the main styles (converted from _built_styles.scss)
+@use 'built_styles';
+
+// Custom Skapari styles
+.skapari {
+  // Add any custom Skapari-specific styles here
+}
+
+// Custom component styles can be added here or in separate files
