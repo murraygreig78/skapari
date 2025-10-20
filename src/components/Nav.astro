@@ -38,7 +38,7 @@ const { navclass } = Astro.props;
 /* Mobile styles for navigation */
 @media (max-width: 768px) {
   .nav-link {
-    font-size: 3rem !important;
+    font-size: 0.9rem !important;
     padding: 0.4rem 0.8rem !important;
   }
   
@@ -49,15 +49,35 @@ const { navclass } = Astro.props;
   .mainnav {
     padding: 0.5rem 0;
   }
+  
+  /* Subnav styles for mobile */
+  .subnav .nav-link {
+    font-size: 0.9rem !important;
+    padding: 0.4rem 0.8rem !important;
+  }
+  
+  .subnav .nav-item {
+    margin-bottom: 0.2rem;
+  }
 }
 
 @media (max-width: 480px) {
   .nav-link {
-    font-size: 2.8rem !important;
+    font-size: 0.8rem !important;
     padding: 0.3rem 0.6rem !important;
   }
   
   .nav-item {
+    margin-bottom: 0.1rem;
+  }
+  
+  /* Subnav styles for small mobile */
+  .subnav .nav-link {
+    font-size: 0.8rem !important;
+    padding: 0.3rem 0.6rem !important;
+  }
+  
+  .subnav .nav-item {
     margin-bottom: 0.1rem;
   }
 }

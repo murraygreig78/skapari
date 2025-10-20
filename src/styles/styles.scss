@@ -1,4 +1,3 @@
 
-//@use'../../node_modules/bootstrap/scss/bootstrap.scss';
-//@use'variables.scss';
-@use'built_styles.scss';
+// Main styles are imported via Layout.astro as _styles.css
+// This file is kept for potential future SCSS usage
