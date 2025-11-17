@@ -61,7 +61,7 @@
                         <div class="col-md-6 mb-4">
                             <img
                         src={project.thumbnail?.src || (project.images && project.images.length > 0 ? project.images[0] : project.img)}
-                        srcset={project.thumbnail?.srcset}
+                        srcset={project.thumbnail?.srcset || undefined}
                         alt={project.name}
                         width={project.thumbnail?.width || 600}
                         height={project.thumbnail?.height || 300}

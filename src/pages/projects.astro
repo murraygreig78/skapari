@@ -23,6 +23,8 @@ categories.push(...categoryMap.values());
 // Optimize project images for thumbnails using Cloudflare Image Resizing
 // Thumbnail size: 600px width (2x for retina = 1200px max)
 // Height: 300px (2x for retina = 600px max)
+const USE_CLOUDFLARE_IMAGE_RESIZING = true;
+
 const optimizedProjects = projectsData.map(project => {
   const thumbnailSrc = project.images && project.images.length > 0 
     ? project.images[0] 
@@ -34,6 +36,10 @@ const optimizedProjects = projectsData.map(project => {
   // quality=85 provides good balance between size and quality
   
   const generateCloudflareImageUrl = (src: string, width: number, height: number): string => {
+    if (!USE_CLOUDFLARE_IMAGE_RESIZING) {
+      return src; // Return original if Cloudflare resizing is disabled
+    }
+    
     // Cloudflare Image Resizing works on same-origin images
     // For relative paths, apply Cloudflare resizing
     if (src.startsWith('/')) {
@@ -57,10 +63,12 @@ const optimizedProjects = projectsData.map(project => {
   
   // Generate optimized URLs for 1x and 2x (retina) displays
   const src1x = generateCloudflareImageUrl(thumbnailSrc, 600, 300);
-  const src2x = generateCloudflareImageUrl(thumbnailSrc, 1200, 600);
+  const src2x = USE_CLOUDFLARE_IMAGE_RESIZING 
+    ? generateCloudflareImageUrl(thumbnailSrc, 1200, 600)
+    : src1x; // Use same image if Cloudflare resizing is disabled
   
   // Generate srcset for responsive images
-  const srcset = `${src1x} 1x, ${src2x} 2x`;
+  const srcset = src1x === src2x ? undefined : `${src1x} 1x, ${src2x} 2x`;
   
   return {
     ...project,
