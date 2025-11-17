@@ -60,8 +60,13 @@
                     <div class="row mb-4">
                         <div class="col-md-6 mb-4">
                             <img
-                        src={project.images && project.images.length > 0 ? project.images[0] : project.img}
+                        src={project.thumbnail?.src || (project.images && project.images.length > 0 ? project.images[0] : project.img)}
+                        srcset={project.thumbnail?.srcset}
                         alt={project.name}
+                        width={project.thumbnail?.width || 600}
+                        height={project.thumbnail?.height || 300}
+                        loading="lazy"
+                        decoding="async"
                         class="img-fluid project-thumb" />
                         </div>
                         <div class="col-md-6 mb-4"> 

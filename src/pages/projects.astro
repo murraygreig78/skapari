@@ -19,6 +19,60 @@ projectsData.forEach(project => {
 });
 
 categories.push(...categoryMap.values());
+
+// Optimize project images for thumbnails using Cloudflare Image Resizing
+// Thumbnail size: 600px width (2x for retina = 1200px max)
+// Height: 300px (2x for retina = 600px max)
+const optimizedProjects = projectsData.map(project => {
+  const thumbnailSrc = project.images && project.images.length > 0 
+    ? project.images[0] 
+    : project.img;
+  
+  // Cloudflare Image Resizing API format:
+  // /cdn-cgi/image/width=W,height=H,fit=cover,quality=Q,format=auto/path/to/image.jpg
+  // format=auto serves WebP/AVIF when supported by browser
+  // quality=85 provides good balance between size and quality
+  
+  const generateCloudflareImageUrl = (src: string, width: number, height: number): string => {
+    // Cloudflare Image Resizing works on same-origin images
+    // For relative paths, apply Cloudflare resizing
+    if (src.startsWith('/')) {
+      return `/cdn-cgi/image/width=${width},height=${height},fit=cover,quality=85,format=auto${src}`;
+    }
+    // For absolute URLs from same domain, extract path and apply resizing
+    if (src.startsWith('http://') || src.startsWith('https://')) {
+      try {
+        const url = new URL(src);
+        // Only optimize if it's from the same domain (skapari.global)
+        if (url.hostname === 'www.skapari.global' || url.hostname === 'skapari.global') {
+          return `/cdn-cgi/image/width=${width},height=${height},fit=cover,quality=85,format=auto${url.pathname}`;
+        }
+      } catch (e) {
+        // Invalid URL, fallback to original
+      }
+    }
+    // Fallback to original for external or invalid URLs
+    return src;
+  };
+  
+  // Generate optimized URLs for 1x and 2x (retina) displays
+  const src1x = generateCloudflareImageUrl(thumbnailSrc, 600, 300);
+  const src2x = generateCloudflareImageUrl(thumbnailSrc, 1200, 600);
+  
+  // Generate srcset for responsive images
+  const srcset = `${src1x} 1x, ${src2x} 2x`;
+  
+  return {
+    ...project,
+    thumbnail: {
+      src: src1x,
+      srcset: srcset,
+      // Dimensions for layout stability (prevents CLS)
+      width: 600,
+      height: 300
+    }
+  };
+});
 ---
 
 <Layout title="Projects - Skapari">
@@ -35,7 +89,7 @@ categories.push(...categoryMap.values());
       </div>
     </section>
 
-    <ProjectGrid client:load projects={projectsData} categories={categories} />
+    <ProjectGrid client:load projects={optimizedProjects} categories={categories} />
   </div>
   <Footer />
 </Layout>
