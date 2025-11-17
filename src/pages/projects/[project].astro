@@ -11,6 +11,53 @@ const project = projects.find((p) => p.slug === projectSlug);
 import Layout from '../../layouts/Layout.astro';
 import Nav from '../../components/Nav.astro';
 import Footer from '../../components/Footer.astro';
+
+// Cloudflare Image Resizing helper
+const USE_CLOUDFLARE_IMAGE_RESIZING = true;
+
+const generateCloudflareImageUrl = (src: string, width: number, height?: number, fit: string = 'cover'): string => {
+  if (!USE_CLOUDFLARE_IMAGE_RESIZING) {
+    return src;
+  }
+  
+  if (src.startsWith('/')) {
+    const heightParam = height ? `,height=${height}` : '';
+    return `/cdn-cgi/image/width=${width}${heightParam},fit=${fit},quality=85,format=auto${src}`;
+  }
+  
+  if (src.startsWith('http://') || src.startsWith('https://')) {
+    try {
+      const url = new URL(src);
+      if (url.hostname === 'www.skapari.global' || url.hostname === 'skapari.global') {
+        const heightParam = height ? `,height=${height}` : '';
+        return `/cdn-cgi/image/width=${width}${heightParam},fit=${fit},quality=85,format=auto${url.pathname}`;
+      }
+    } catch (e) {
+      // Invalid URL, fallback to original
+    }
+  }
+  
+  return src;
+};
+
+// Optimize project images
+const optimizedImages = project?.images?.map((img, idx) => {
+  if (idx === 0) {
+    // First image: full width, larger size
+    return {
+      original: img,
+      optimized: generateCloudflareImageUrl(img, 1200),
+      srcset: `${generateCloudflareImageUrl(img, 1200)} 1x, ${generateCloudflareImageUrl(img, 2400)} 2x`
+    };
+  } else {
+    // Thumbnail images: smaller size
+    return {
+      original: img,
+      optimized: generateCloudflareImageUrl(img, 400, 300),
+      srcset: `${generateCloudflareImageUrl(img, 400, 300)} 1x, ${generateCloudflareImageUrl(img, 800, 600)} 2x`
+    };
+  }
+}) || [];
 ---
 <Layout title={project ? `${project.name} - Skapari` : 'Project Not Found - Skapari'}>
   <Nav/>
@@ -32,19 +79,33 @@ import Footer from '../../components/Footer.astro';
           <div class="col-md-10 offset-md-1">
             {'description' in project && project.description && <p class="well">{project.description}</p>}
             <div class="row">
-              {project.images && project.images.length > 0 ? (
-                project.images.map((img, idx) => (
+              {optimizedImages.length > 0 ? (
+                optimizedImages.map((imgData, idx) => (
                   <div class={idx === 0 ? 'col-lg-12' : 'project-thumb col-lg-3 col-md-4 col-sm-4 col-6 mt-4'}>
                     <div class="bg-image hover-overlay">
-                      <a href={img} data-fslightbox>
-                        <img src={img} class="w-100" />
+                      <a href={imgData.original} data-fslightbox>
+                        <img 
+                          src={imgData.optimized} 
+                          srcset={imgData.srcset}
+                          class="w-100" 
+                          loading={idx === 0 ? 'eager' : 'lazy'}
+                          decoding="async"
+                          width={idx === 0 ? 1200 : 400}
+                          height={idx === 0 ? undefined : 300}
+                          alt={`${project.name} - Image ${idx + 1}`}
+                        />
                       </a>
                     </div>
                   </div>
                 ))
               ) : (
                 <div class="col-12">
-                  <img src={project.img} class="w-100" alt={project.name} />
+                  <img 
+                    src={project.img ? generateCloudflareImageUrl(project.img, 1200) : project.img} 
+                    class="w-100" 
+                    alt={project.name}
+                    loading="eager"
+                  />
                 </div>
               )}
             </div>
