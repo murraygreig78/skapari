@@ -5,7 +5,7 @@ import svelte from '@astrojs/svelte';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://www.skapari.global/',
+  site: 'https://www.skapari.co.za/',
   base: process.env.ASTRO_BASE_PATH || '/',
   integrations: [svelte()]
 });

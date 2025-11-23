@@ -49,8 +49,8 @@ const optimizedProjects = projectsData.map(project => {
     if (src.startsWith('http://') || src.startsWith('https://')) {
       try {
         const url = new URL(src);
-        // Only optimize if it's from the same domain (skapari.global)
-        if (url.hostname === 'www.skapari.global' || url.hostname === 'skapari.global') {
+        // Only optimize if it's from the same domain (skapari.co.za)
+        if (url.hostname === 'www.skapari.co.za' || url.hostname === 'skapari.co.za') {
           return `/cdn-cgi/image/width=${width},height=${height},fit=cover,quality=85,format=auto${url.pathname}`;
         }
       } catch (e) {

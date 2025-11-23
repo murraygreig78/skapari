@@ -28,7 +28,7 @@ const generateCloudflareImageUrl = (src: string, width: number, height?: number,
   if (src.startsWith('http://') || src.startsWith('https://')) {
     try {
       const url = new URL(src);
-      if (url.hostname === 'www.skapari.global' || url.hostname === 'skapari.global') {
+      if (url.hostname === 'www.skapari.co.za' || url.hostname === 'skapari.co.za') {
         const heightParam = height ? `,height=${height}` : '';
         return `/cdn-cgi/image/width=${width}${heightParam},fit=${fit},quality=85,format=auto${url.pathname}`;
       }
