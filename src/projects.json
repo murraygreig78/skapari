@@ -317,6 +317,7 @@
         "img": "/images/projects/wework-eyeofafrica.jpg",
         "name": "WeWork Eye of Africa",
         "category": "Commercial",
+        "status": "Completed",
         "images": [
             "/images/wework-eyeofafrica/5fcd2bff80f2e041726909.jpg",
             "/images/wework-eyeofafrica/5fcd2c24e2fcf293038162.jpg"
@@ -343,6 +344,7 @@
         "img": "/images/projects/accor-office-contemporary.jpg",
         "name": "Accor Office Contemporary",
         "category": "Commercial",
+        "status": "Completed",
         "images": [
             "/images/accor-office-contemporary/606ee4e80e0ed438027835.jpg",
             "/images/accor-office-contemporary/606ee505c83e1751484821.jpg",
