@@ -64,9 +64,11 @@ If you need to deploy manually:
 
 - `src/pages/` - Astro pages and routes
 - `src/components/` - Reusable components
-- `src/assets/images/` - Project images and assets
-- `src/projects.json` - Project data
-- `public/` - Static assets served directly
+- `src/assets/images/` - Site chrome (logos, SVGs) — not project galleries
+- `src/projects.json` - Project data (source of truth for all portfolio projects)
+- `public/images/projects/` - Project covers and gallery images
+- `sourcefiles/` - Raw client deliverables before optimization (not served)
+- `docs/adding-a-project.md` - Step-by-step guide for adding a new project
 
 ## 👀 Want to learn more?
 
