@@ -103,22 +103,6 @@
         "description": "Located in the heart of Cape Town's vibrant Waterfront district, the Radisson Collection Hotel showcases Skapari's commitment to creating sophisticated and elegant hospitality spaces. The design seamlessly blends contemporary luxury with the natural beauty of the Cape Town waterfront, creating an immersive experience that reflects the city's unique character and charm."
     },
     {
-        "slug": "radisson-blu-ras-al-khaimah",
-        "url": "/projects/radisson-blu-ras-al-khaimah",
-        "img": "/images/projects/radisson-blu-ras-al-khaimah.jpg",
-        "name": "Radisson Blu Ras Al Khaimah",
-        "category": "Hospitality",
-        "status": "Completed",
-        "images": [
-            "/images/projects/radisson-blu-ras-al-khaimah/radisson-blu-ras-al-khaimah-1.jpg",
-            "/images/projects/radisson-blu-ras-al-khaimah/radisson-blu-ras-al-khaimah-2.jpg",
-            "/images/projects/radisson-blu-ras-al-khaimah/radisson-blu-ras-al-khaimah-3.jpg",
-            "/images/projects/radisson-blu-ras-al-khaimah/radisson-blu-ras-al-khaimah-4.jpg",
-            "/images/projects/radisson-blu-ras-al-khaimah/radisson-blu-ras-al-khaimah-5.jpg"
-        ],
-        "description": "A Contemporary Sanctuary Shaped by Nature, Culture, and Place. Radisson Blu Ras Al Khaimah embodies a quiet confidence — a destination where design, culture, and nature converge to create an experience of contemporary luxury rooted in authenticity. Set between the dramatic landscapes of desert, mountain, and sea, the design narrative draws inspiration from the natural contrasts of Ras Al Khaimah. The shifting dunes of the desert, the rugged permanence of the Hajar Mountains, and the tranquil rhythm of the Arabian Gulf are woven together to create interiors that feel timeless, refined, and deeply connected to their surroundings. The spaces celebrate the region's inherent beauty through a palette of soft sands, sun-washed stone, and subtle ocean hues. Natural textures, tactile materials, and layered detailing create an atmosphere of understated elegance — calm, considered, and effortlessly sophisticated. More than a place to stay, Radisson Blu Ras Al Khaimah is envisioned as a sanctuary for the modern traveller: a retreat where contemporary design meets local identity, and where every space tells a story of landscape, heritage, and the enduring beauty of the region."
-    },
-    {
         "slug": "livingstone-zambia-mosi-oa-tunya",
         "url": "/projects/livingstone-zambia-mosi-oa-tunya",
         "img": "/images/projects/livingstone-zambia-mosi-oa-tunya.jpg",
