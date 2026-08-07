@@ -477,9 +477,4 @@
     }
 }), $(document).on("click", 'a[href^="#"]', function (t) {
     t.preventDefault(), $("html, body").animate({scrollTop: $($.attr(this, "href")).offset().top}, 500)
-}), jQuery(document).ready(function (t) {
-    jQuery(".third-button").on("click", function () {
-        jQuery(".animated-icon3").toggleClass("open");
-        jQuery('body').toggleClass('active');
-    })
 });

@@ -1,30 +1,35 @@
 ---
-// Convert the PHP nav.php to an Astro component
 const { navclass } = Astro.props;
 ---
 
-<header class={navclass}>
+<header class={navclass} data-site-nav>
   <nav class="navbar" id="main-nav">
-    <button class="navbar-toggler third-button ml-auto hidden-sm-up float-xs-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#topnavigation" aria-controls="topnavigation" aria-expanded="false" aria-label="Toggle navigation">
-      <div class="animated-icon3"><span></span><span></span><span></span></div>
+    <button
+      class="navbar-toggler third-button ml-auto hidden-sm-up float-xs-right"
+      type="button"
+      id="nav-toggle"
+      aria-controls="topnavigation"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <div class="animated-icon3" aria-hidden="true"><span></span><span></span><span></span></div>
     </button>
-    <div class="navbar-collapse collapse" id="topnavigation" style="">
+    <div class="navbar-overlay" id="topnavigation" hidden aria-hidden="true">
       <div class="overlay-content">
-        <!-- Links -->
         <ul class="mainnav navbar-nav me-auto">
-          <li class="nav-item inactive">
-            <a class="nav-link " href="https://skapari.co.za">home</a>
+          <li class="nav-item">
+            <a class="nav-link" href="https://skapari.co.za">home</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href={new URL('/about', Astro.url)}>about</a>
           </li>
-          <li class="nav-item inactive">
+          <li class="nav-item">
             <a class="nav-link" href={new URL('/projects', Astro.url)}>our work</a>
           </li>
-          <li class="nav-item inactive">
+          <li class="nav-item">
             <a class="nav-link" href={new URL('/curated', Astro.url)}>curated</a>
           </li>
-          <li class="nav-item inactive">
+          <li class="nav-item">
             <a class="nav-link" href={new URL('/contact', Astro.url)}>contact</a>
           </li>
         </ul>
@@ -33,52 +38,132 @@ const { navclass } = Astro.props;
   </nav>
 </header>
 
+<script>
+  function initSiteNav() {
+    const header = document.querySelector('[data-site-nav]');
+    const toggle = document.getElementById('nav-toggle');
+    const overlay = document.getElementById('topnavigation');
+    const icon = toggle?.querySelector('.animated-icon3');
+
+    if (!header || !toggle || !overlay || !icon) return;
+    if (toggle.dataset.navBound === 'true') return;
+    toggle.dataset.navBound = 'true';
+
+    let hideTimer = 0;
+
+    const reduceMotion = () =>
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    const setOpen = (open) => {
+      window.clearTimeout(hideTimer);
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      icon.classList.toggle('open', open);
+      document.body.classList.toggle('nav-open', open);
+
+      if (open) {
+        overlay.removeAttribute('hidden');
+        overlay.setAttribute('aria-hidden', 'false');
+
+        const reveal = () => {
+          header.classList.add('is-open');
+          overlay.classList.add('is-open');
+        };
+
+        if (reduceMotion()) {
+          reveal();
+        } else {
+          requestAnimationFrame(() => requestAnimationFrame(reveal));
+        }
+        return;
+      }
+
+      header.classList.remove('is-open');
+      overlay.classList.remove('is-open');
+      overlay.setAttribute('aria-hidden', 'true');
+
+      const hide = () => {
+        if (!header.classList.contains('is-open')) {
+          overlay.setAttribute('hidden', '');
+        }
+      };
+
+      if (reduceMotion()) {
+        hide();
+      } else {
+        hideTimer = window.setTimeout(hide, 420);
+      }
+    };
+
+    toggle.addEventListener('click', () => {
+      setOpen(!header.classList.contains('is-open'));
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && header.classList.contains('is-open')) {
+        setOpen(false);
+        toggle.focus();
+      }
+    });
+  }
+
+  initSiteNav();
+  document.addEventListener('astro:page-load', initSiteNav);
+</script>
 
 <style>
-/* Mobile styles for navigation */
-@media (max-width: 768px) {
-  .nav-link {
-    font-size: 0.9rem !important;
-    padding: 0.4rem 0.8rem !important;
-  }
-  
-  .nav-item {
-    margin-bottom: 0.2rem;
-  }
-  
-  .mainnav {
-    padding: 0.5rem 0;
-  }
-  
-  /* Subnav styles for mobile */
-  .subnav .nav-link {
-    font-size: 0.9rem !important;
-    padding: 0.4rem 0.8rem !important;
-  }
-  
-  .subnav .nav-item {
-    margin-bottom: 0.2rem;
-  }
-}
+  /* Mobile styles for navigation */
+  @media (max-width: 768px) {
+    .nav-link {
+      font-size: 0.9rem !important;
+      padding: 0.4rem 0.8rem !important;
+    }
 
-@media (max-width: 480px) {
-  .nav-link {
-    font-size: 2.8rem !important;
-    padding: 0.3rem 0.6rem !important;
+    .nav-item {
+      margin-bottom: 0.2rem;
+    }
+
+    .mainnav {
+      padding: 0.5rem 0;
+    }
+
+    .mainnav .nav-link {
+      font-size: 2.8rem !important;
+      padding: 0.35rem 1rem !important;
+    }
+
+    /* Subnav styles for mobile */
+    .subnav .nav-link {
+      font-size: 0.9rem !important;
+      padding: 0.4rem 0.8rem !important;
+    }
+
+    .subnav .nav-item {
+      margin-bottom: 0.2rem;
+    }
   }
-  
-  .nav-item {
-    margin-bottom: 0.1rem;
+
+  @media (max-width: 480px) {
+    .nav-link {
+      font-size: 2.8rem !important;
+      padding: 0.3rem 0.6rem !important;
+    }
+
+    .nav-item {
+      margin-bottom: 0.1rem;
+    }
+
+    .mainnav .nav-link {
+      font-size: 2.4rem !important;
+    }
+
+    /* Subnav styles for small mobile */
+    .subnav .nav-link {
+      font-size: 0.8rem !important;
+      padding: 0.3rem 0.6rem !important;
+    }
+
+    .subnav .nav-item {
+      margin-bottom: 0.1rem;
+    }
   }
-  
-  /* Subnav styles for small mobile */
-  .subnav .nav-link {
-    font-size: 0.8rem !important;
-    padding: 0.3rem 0.6rem !important;
-  }
-  
-  .subnav .nav-item {
-    margin-bottom: 0.1rem;
-  }
-}
 </style>
