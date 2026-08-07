@@ -1,0 +1,279 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import { Image } from 'astro:assets';
+import circleLightsLeft from '../assets/images/circle_lights_left.png';
+import circleLightsBottom from '../assets/images/circle_lights_bottom.png';
+
+const stats = [
+  { value: '10+', label: 'Countries of project experience' },
+  { value: '20+', label: 'Years designing hospitality' },
+  { value: '2', label: 'Studios in Johannesburg & Cape Town' },
+  { value: 'Africa & Middle East', label: 'Regions of deep design focus' },
+];
+
+const expertise = [
+  {
+    title: 'Hotels',
+    body: 'We design hotels, resorts and hospitality destinations that feel rooted in place. From luxury and lifestyle brands to soft refurbishments, our work balances brand standards with local identity, guest comfort and operational clarity.',
+  },
+  {
+    title: 'F&B',
+    body: 'Food and beverage spaces are shaped through close collaboration with owners, operators and culinary teams. We design atmospheres that support the offering — inventive, culturally aware and meticulously considered down to the smallest detail.',
+  },
+  {
+    title: 'Wellness',
+    body: 'Our wellness environments are calm, tactile and restorative. Treatments and rituals are reflected in materiality, lighting and flow, creating sanctuaries that feel considered rather than generic.',
+  },
+  {
+    title: 'Curated',
+    body: 'Through Curated by Skapari and partnerships with local artists, we layer authenticity into projects — sourcing artwork, objects and craft that deepen a sense of locality and leave a lasting impression.',
+  },
+];
+
+const services = [
+  {
+    title: 'Interior Design',
+    body: 'We are storytellers of interior design. After studying audience and location, we define a clear narrative and develop spaces that are intimate, layered and timeless — always in conversation with geography and history.',
+  },
+  {
+    title: 'Project & Site Management',
+    body: 'From concept through handover, we coordinate deliverables, programmes and on-site decisions so design intent survives construction. Technical know-how and acoustic experience keep projects refined, practical and on track.',
+  },
+  {
+    title: 'FF&E Design & Specification',
+    body: 'Furniture, finishes and fixtures are selected to elevate the design narrative. We work with artisans and suppliers to source beautiful, durable materials — with schedules thoroughly reviewed for design quality and buildability.',
+  },
+  {
+    title: 'Technical Design & Documentation',
+    body: 'Clear documentation and established standards help contractors deliver exceptional workmanship. Functionality comes first: ergonomics, navigation, logistics, lighting and material performance underpin every aesthetic decision.',
+  },
+];
+---
+
+<Layout title="Skapari - Approach" noindex>
+  <div class="wrapper">
+    <Nav navclass="header" />
+
+    <section class="section" id="approach">
+      <div class="container-fluid">
+        <div class="overlay-content">
+          <h1 class="text-right main-heading">approach</h1>
+        </div>
+        <ul class="mt-5 subnav nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#story">story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#people">people</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#clients">clients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#expertise">expertise</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">services</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="bg-dark section" id="story">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="d-none d-md-block col-md-4">
+            <Image src={circleLightsLeft} alt="Skapari circle lights" class="img-fluid" style="max-height: 100vh" />
+          </div>
+          <div class="col-md-8">
+            <h3 class="skapari-heading half">WE DESIGN STORIES <span>rooted in place</span></h3>
+            <p class="lead-line">Our projects reside in compelling locations. Our clients are bold and inspired.</p>
+            <p>
+              With a passion for hospitality, Skapari creates interiors that are unobtrusive yet individual.
+              Each guest — whether a business traveller or a classical tourist — should feel the attention of the hotel,
+              as though the design was made specifically for them.
+            </p>
+            <p>
+              We begin by analysing the audience and embracing the history of place. A hotel in Lagos and a hotel in
+              Johannesburg cannot be taken out of their geographical and cultural context. They must be different —
+              even when they welcome the same type of traveller. That sense of locality is crucial to everything we do.
+            </p>
+            <div class="d-block d-md-none">
+              <Image src={circleLightsBottom} alt="Skapari circle lights" class="img-fluid mx-auto d-block mt-4" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row stats-row mt-5">
+          {stats.map((stat) => (
+            <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+              <div class="stat">
+                <div class="stat-value">{stat.value}</div>
+                <div class="stat-rule"></div>
+                <div class="stat-label">{stat.label}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="people">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
+            <p class="eyebrow">People</p>
+            <h3 class="skapari-heading half centered">OUR DESIGNERS ARE EVERYWHERE <span>specialist hospitality minds</span></h3>
+            <p class="quote">“Borderless hospitality expertise with a deep sense of place.”</p>
+            <p>
+              Our designers bring enviable hospitality experience across Africa and the Middle East. Project teams are
+              curated to each brief — never off the rack. Specialists in hotels, F&amp;B, wellness and FF&amp;E work
+              together so every space feels considered, operational and distinctly local.
+            </p>
+            <p>
+              Listening is a skill. We are passionate about exceeding client expectations and delivering interiors that
+              are unique, bespoke and timeless.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark section" id="clients">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
+            <p class="eyebrow">Clients</p>
+            <h3 class="skapari-heading half centered">OUR CLIENTS ARE BRAVE AND DISCERNING <span>partnership first</span></h3>
+            <p class="quote">“The moments when a client falls in love with their project make our process rewarding.”</p>
+            <p>
+              We work with visionary brand partners and ambitious owners who want more than a template. Relationships
+              come first: we encourage client involvement throughout the process and celebrate each project as uniquely
+              as the people behind it.
+            </p>
+            <p>
+              From Radisson and Accor to independent and lifestyle destinations, we offer a tailored, attentive design
+              partnership — weaving creative direction with practical delivery across the African continent and the Middle East.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="expertise">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p class="eyebrow dark">Expertise</p>
+            <h3 class="skapari-heading half centered">HOSPITALITY EXPERTISE <span>across typologies</span></h3>
+          </div>
+        </div>
+        <div class="row mt-4">
+          {expertise.map((item) => (
+            <div class="col-md-6 mb-4">
+              <div class="panel">
+                <h2 class="skapari-subheading">{item.title}</h2>
+                <p>{item.body}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark section" id="services">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
+            <p class="eyebrow">Services</p>
+            <h3 class="skapari-heading half centered">IMAGINATIVE STORYTELLING <span>creative and technical</span></h3>
+            <p class="quote">“What distinguishes us is our ideation process.”</p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          {services.map((item) => (
+            <div class="col-md-6 mb-4">
+              <div class="panel panel-dark">
+                <h2 class="skapari-subheading">{item.title}</h2>
+                <p>{item.body}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  </div>
+  <Footer />
+</Layout>
+
+<style>
+  .lead-line {
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    opacity: 0.75;
+  }
+
+  .eyebrow.dark {
+    color: #0f062f;
+  }
+
+  .quote {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.15rem;
+    margin: 1.5rem 0;
+  }
+
+  .stats-row {
+    border-top: 1px solid rgba(242, 242, 242, 0.25);
+    padding-top: 2.5rem;
+  }
+
+  .stat-value {
+    font-size: clamp(1.75rem, 4vw, 2.75rem);
+    font-weight: 100;
+    line-height: 1.1;
+    margin-bottom: 0.75rem;
+  }
+
+  .stat-rule {
+    width: 2.5rem;
+    border-top: 1px solid rgba(242, 242, 242, 0.55);
+    margin-bottom: 0.75rem;
+  }
+
+  .stat-label {
+    font-size: 0.85rem;
+    font-weight: 300;
+    line-height: 1.4;
+    max-width: 12rem;
+  }
+
+  .panel {
+    height: 100%;
+    padding: 1.5rem 0;
+  }
+
+  .panel-dark .skapari-subheading {
+    color: #f2f2f2;
+  }
+
+  @media (max-width: 767.98px) {
+    .skapari-heading.half.centered {
+      width: 100%;
+    }
+  }
+</style>
