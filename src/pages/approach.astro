@@ -5,6 +5,11 @@ import Footer from '../components/Footer.astro';
 import { Image } from 'astro:assets';
 import circleLightsLeft from '../assets/images/circle_lights_left.png';
 import circleLightsBottom from '../assets/images/circle_lights_bottom.png';
+import jackyRiejean from '../assets/images/jacky_riejean1.png';
+import skapariCurated from '../assets/images/skapari_curated.png';
+import curatedLogo from '../assets/images/curated logo.png';
+import radissonLogo from '../assets/images/radisson-logo 1.png';
+import accorLogo from '../assets/images/Accor-Logo 1.png';
 
 const stats = [
   { value: '10+', label: 'Countries of project experience' },
@@ -50,6 +55,37 @@ const services = [
     body: 'Clear documentation and established standards help contractors deliver exceptional workmanship. Functionality comes first: ergonomics, navigation, logistics, lighting and material performance underpin every aesthetic decision.',
   },
 ];
+
+const kenBurnsBands = [
+  {
+    src: '/images/abu-dhabi-elegance/abu-dhabi-elegance-1.jpg',
+    alt: 'Abu Dhabi Elegance interiors',
+  },
+  {
+    src: '/images/mosi-livingstone/royal-villa-terrace-zimbabwe-river-25213523.jpg',
+    alt: 'Radisson Blu Mosi-oa-Tunya royal villa terrace',
+  },
+  {
+    src: '/images/cameroon-pullman/cameroon-pullman6.jpg',
+    alt: 'Radisson Hotel Yaoundé Cameroon interiors',
+  },
+  {
+    src: '/images/projects/radisson-collection-hotel-waterfront-cape-town/radisson-collection-hotel-waterfront-cape-town-19.jpg',
+    alt: 'Radisson Collection Hotel Waterfront Cape Town interiors',
+  },
+  {
+    src: '/images/accor-office-contemporary/606ee4e80e0ed438027835.jpg',
+    alt: 'Accor Office Contemporary interiors',
+  },
+  {
+    src: '/images/projects/radisson-collection-hotel-waterfront-cape-town/radisson-collection-hotel-waterfront-cape-town-19.jpg',
+    alt: 'Radisson Collection Hotel Waterfront Cape Town interiors',
+  },
+  {
+    src: '/images/cameroon-pullman/cameroon-pullman6.jpg',
+    alt: 'Radisson Hotel Yaoundé Cameroon interiors',
+  },
+];
 ---
 
 <Layout title="Skapari - Approach" noindex>
@@ -76,6 +112,18 @@ const services = [
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#services">services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#philosophy">philosophy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#curated">curated</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#recommendations">recommendations</a>
           </li>
         </ul>
       </div>
@@ -106,6 +154,8 @@ const services = [
           </div>
         </div>
 
+
+
         <div class="row stats-row mt-5">
           {stats.map((stat) => (
             <div class="col-6 col-lg-3 mb-4 mb-lg-0">
@@ -117,6 +167,12 @@ const services = [
             </div>
           ))}
         </div>
+      </div>
+    </section>
+
+    <section class="ken-burns-band" data-ken-burns aria-hidden="true">
+      <div class="ken-burns-media">
+        <img src={kenBurnsBands[0].src} alt={kenBurnsBands[0].alt} loading="lazy" decoding="async" />
       </div>
     </section>
 
@@ -141,6 +197,12 @@ const services = [
       </div>
     </section>
 
+    <section class="ken-burns-band" data-ken-burns aria-hidden="true">
+      <div class="ken-burns-media">
+        <img src={kenBurnsBands[1].src} alt={kenBurnsBands[1].alt} loading="lazy" decoding="async" />
+      </div>
+    </section>
+
     <section class="bg-dark section" id="clients">
       <div class="container-fluid">
         <div class="row">
@@ -159,6 +221,12 @@ const services = [
             </p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="ken-burns-band" data-ken-burns aria-hidden="true">
+      <div class="ken-burns-media">
+        <img src={kenBurnsBands[2].src} alt={kenBurnsBands[2].alt} loading="lazy" decoding="async" />
       </div>
     </section>
 
@@ -183,6 +251,12 @@ const services = [
       </div>
     </section>
 
+    <section class="ken-burns-band" data-ken-burns aria-hidden="true">
+      <div class="ken-burns-media">
+        <img src={kenBurnsBands[3].src} alt={kenBurnsBands[3].alt} loading="lazy" decoding="async" />
+      </div>
+    </section>
+
     <section class="bg-dark section" id="services">
       <div class="container-fluid">
         <div class="row">
@@ -204,9 +278,179 @@ const services = [
         </div>
       </div>
     </section>
+
+    <section class="ken-burns-band" data-ken-burns aria-hidden="true">
+      <div class="ken-burns-media">
+        <img src={kenBurnsBands[4].src} alt={kenBurnsBands[4].alt} loading="lazy" decoding="async" />
+      </div>
+    </section>
+
+
+
+
+    <section class="section" id="team">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3 class="skapari-heading centered half">THE TEAM <span>who we are</span></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 mx-auto">
+            <div class="content">
+              <p>Listening is a skill. We are passionate about our work and exceeding client expectations. We strife to deliver work of the highest standard and to create interiors that are truly unique, bespoke and timeless.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 mx-auto">
+            <Image src={jackyRiejean} alt="jacky & riejean" class="img-fluid" />
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-5">
+            <h2 class="skapari-subheading">Jacky Greig</h2>
+            <div class="content">
+              <p>Jacky's spunky personality, creative genius and drive for excellence are a potent combo. She is committed to working closely with each client through the design process and consistently delivers beautiful, invigorating interiors. She has been working in the interior design industry for nearly 20 years and her immense experience is evident in the quality of work she produces for Skapari's clients.</p>
+              <p>Jacky's designs are inspired by the intersection of lives and worlds that happens in multi-person spaces. Hotels offer opportunity, excitement, refuge and luxury for their guests, and the creativity and artistry Jacky brings to her work reflect these different roles a space can play in people's stories.</p>
+            </div>
+          </div>
+          <div class="col-sm-2"></div>
+          <div class="col-sm-5">
+            <h2 class="skapari-subheading">Riejean Joubert</h2>
+            <div class="content">
+              <p>Riejean has a natural ability to bring her visions to life and to create spaces and designs that surpass expectations by finding the perfect balance in the care that she takes with clients to listen and to understand.</p>
+              <p>She is committed to not only delivering incredible designs but is absolutely meticulous about achieving perfection. Riejean has been passionately involved in the hospitality design industry for over 20 years.</p>
+              <p>Riejean believes that design must be pure and not overworked, with simplicity and elegance. Design must be imbued to reflect the richness of its location. Spaces must flow and work and talk to one another, spaces create an opportunity for discovery and immersion.</p>
+            </div>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ken-burns-band" data-ken-burns aria-hidden="true">
+      <div class="ken-burns-media">
+        <img src={kenBurnsBands[5].src} alt={kenBurnsBands[5].alt} loading="lazy" decoding="async" />
+      </div>
+    </section>
+
+    <section class="section" id="curated">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3 class="skapari-heading centered half">FINE ART<span>curated by us</span></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 m-auto">
+            <p>Dale Sargent Fine Art is a gallery as well as an online platform that offers a range of fine South African art. We have an extensive collection of artworks by established South African artists as well as works by emerging younger artists. Dale Sargent Fine Art has a gallery space in Parktown North in Johannesburg where visits are by appointment. We also offer onsite consulting and art sourcing for corporate and private clients.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 mx-auto">
+            <Image src={skapariCurated} alt="Skapari curated" class="img-fluid" />
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-3 mx-auto">
+            <Image src={curatedLogo} alt="Skapari curated" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ken-burns-band" data-ken-burns aria-hidden="true">
+      <div class="ken-burns-media">
+        <img src={kenBurnsBands[6].src} alt={kenBurnsBands[6].alt} loading="lazy" decoding="async" />
+      </div>
+    </section>
+
+    <section class="section" id="recommendations">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="skapari-heading half centered">LETTERS<span>of recommendation</span></h3>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-3">&nbsp;</div>
+              <div class="col-md-4">
+                <a target="_blank" href="https://skapari.co.za/storage/app/media/Letter%20of%20Recommendation%20-%20Iain%20Cook%20Radisson.pdf">
+                  <Image src={radissonLogo} height={137} width={261} class="mx-auto" alt="Radisson Logo" />
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a target="_blank" href="https://skapari.co.za/storage/app/media/accor%20recommendation%20letter.pdf">
+                  <Image src={accorLogo} height={128} width={227} class="mx-auto" alt="Accor Logo" />
+                </a>
+              </div>
+              <div class="col-md-3">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
   <Footer />
 </Layout>
+
+<script>
+  function initKenBurns() {
+    if (document.documentElement.dataset.kenBurnsBound === 'true') return;
+    document.documentElement.dataset.kenBurnsBound = 'true';
+
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let ticking = false;
+
+    const update = () => {
+      const bands = document.querySelectorAll('[data-ken-burns]');
+
+      if (reduceMotion) {
+        bands.forEach((band) => {
+          const media = band.querySelector('.ken-burns-media');
+          if (media instanceof HTMLElement) {
+            media.style.transform = 'none';
+          }
+        });
+        ticking = false;
+        return;
+      }
+
+      const viewportHeight = window.innerHeight;
+
+      bands.forEach((band) => {
+        const media = band.querySelector('.ken-burns-media');
+        if (!(media instanceof HTMLElement)) return;
+
+        const rect = band.getBoundingClientRect();
+        const total = viewportHeight + rect.height;
+        const progress = Math.min(1, Math.max(0, (viewportHeight - rect.top) / total));
+        const scale = 1 + progress * 0.14;
+        const shift = (progress - 0.5) * 6;
+
+        media.style.transform = `translate3d(0, ${shift}%, 0) scale(${scale})`;
+      });
+
+      ticking = false;
+    };
+
+    const onScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(update);
+    };
+
+    update();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+  }
+
+  initKenBurns();
+  document.addEventListener('astro:page-load', initKenBurns);
+</script>
 
 <style>
   .lead-line {
@@ -271,9 +515,44 @@ const services = [
     color: #f2f2f2;
   }
 
+  .ken-burns-band {
+    position: relative;
+    height: clamp(14rem, 48vh, 26rem);
+    overflow: hidden;
+    background: #0f062f;
+  }
+
+  @media (min-width: 768px) {
+    .ken-burns-band {
+      height: clamp(28rem, 85vh, 52rem);
+    }
+  }
+
+  .ken-burns-media {
+    position: absolute;
+    inset: -12%;
+    will-change: transform;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+
+  .ken-burns-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
   @media (max-width: 767.98px) {
     .skapari-heading.half.centered {
       width: 100%;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ken-burns-media {
+      inset: 0;
+      transform: none !important;
+      will-change: auto;
     }
   }
 </style>
