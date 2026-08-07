@@ -77,7 +77,11 @@ const optimizedImages = project?.images?.map((img, idx) => {
         </div>
         <div class="row">
           <div class="col-md-10 offset-md-1">
-            {'description' in project && project.description && <p class="well">{project.description}</p>}
+            {'description' in project && project.description && (
+              project.description.split(/\n+/).filter(Boolean).map((paragraph) => (
+                <p class="well">{paragraph}</p>
+              ))
+            )}
             <div class="row">
               {optimizedImages.length > 0 ? (
                 optimizedImages.map((imgData, idx) => (

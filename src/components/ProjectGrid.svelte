@@ -70,8 +70,12 @@
                         class="img-fluid project-thumb" />
                         </div>
                         <div class="col-md-6 mb-4"> 
-                            <h4 class="mb-4">{project.name}</h4> 
-                            <p class="small">{project.description}</p>
+                            <h4 class="mb-4">{project.name}</h4>
+                            {#if project.description}
+                              {#each project.description.split(/\n+/).filter(Boolean) as paragraph}
+                                <p class="small">{paragraph}</p>
+                              {/each}
+                            {/if}
                         </div>
                     </div>
                 </a>
