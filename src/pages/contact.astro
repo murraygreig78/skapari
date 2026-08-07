@@ -1,7 +1,9 @@
 ---
-import Layout from '../../src/layouts/Layout.astro';
+import Layout from '../layouts/Layout.astro';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
+import { Image } from 'astro:assets';
+import circleLightsBottomLg from '../assets/images/circle_lights_bottom_lg.png';
 ---
 
 <Layout title="Skapari - Contact">
@@ -40,7 +42,7 @@ import Footer from '../components/Footer.astro';
             </div>
             <div class="row mt-3">
               <div class="col-md-12">
-                <img src="/assets/images/circle_lights_bottom_lg.png" alt="Skapari circle lights" class="img-fluid">
+                <Image src={circleLightsBottomLg} alt="Skapari circle lights" class="img-fluid" />
               </div>
             </div>
           </div>
